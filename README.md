@@ -1,2 +1,2 @@
 # AC-Website
-AC Company website made by COD CS Club.
+Website made for AP Pro Inc. by the College of DuPage Computer Science Club
