@@ -6,3 +6,29 @@
 .services-description p {
     font-size: 20px;
 }
+
+.service-images{
+    display: flex;
+    margin: auto;
+    width: 75vw; 
+    justify-content: space-around;    
+}
+
+.service-images img[src="public/humidifier.jpg"] {
+    float: left;
+    width: 300px;
+    height: 350px;
+
+}
+
+.service-images img[src="public/scrF.jpg.png"] {
+    float: left;
+    width: 300px;
+    height: 350px;
+}
+
+.service-images img[src="public/ac.jpg"] {
+    float: left;
+    width: 300px;
+    height: 350px;
+}
