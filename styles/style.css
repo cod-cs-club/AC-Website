@@ -1,10 +1,14 @@
 .services-description {
     text-align: center;
     white-space: nowrap;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
 .services-description p {
     font-size: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
 .service-images{
