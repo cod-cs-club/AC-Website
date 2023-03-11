@@ -1,6 +1,6 @@
 .services-description {
     text-align: center;
-    white-space:nowrap;
+    white-space: nowrap;
 }
 
 .services-description p {
@@ -11,13 +11,14 @@
     display: flex;
     margin: auto;
     width: 75vw; 
-    justify-content: space-around;    
+    justify-content: space-between;  
 }
 
 .service-images img[src="public/humidifier.jpg"] {
     float: left;
     width: 300px;
     height: 350px;
+    padding-right: 25px;
 
 }
 
@@ -25,10 +26,12 @@
     float: left;
     width: 300px;
     height: 350px;
+    padding-right: 25px;
 }
 
 .service-images img[src="public/ac.jpg"] {
     float: left;
     width: 300px;
     height: 350px;
+    padding-right: 25px;
 }
