@@ -1,0 +1,53 @@
+.location-cities {
+   background-color: #DCDCDC;
+   width: 100%;
+   height: 120px;
+}
+
+.location-locations {
+   box-sizing: border-box;
+   background-color: #DCDCDC;
+   float: left; 
+   width: 50%;
+   height: 520px;
+}
+
+.location-cityLi {
+   width: 33%;
+   float: left;
+}
+
+.location-cityUl {
+   margin-top:15px;
+}
+
+.location-locationLi {
+   padding: 5px 4px;  
+   margin: 10px; 
+}
+
+.location-locationUl {
+   box-sizing: border-box;
+   width: 30%;
+   float: left;
+}
+
+.location-a {
+   text-decoration: none;
+   color: black;
+}
+
+.location-h2 {
+   text-align: center;
+   color: black;
+   background-color: #878888;
+   margin: 0%;
+   padding:1%;
+}
+
+.location-iframe {
+   box-sizing: border-box;
+   float: right;
+   width: 50%;
+   height: 520px;
+}
