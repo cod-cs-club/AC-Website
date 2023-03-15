@@ -1,49 +1,70 @@
 .main-container {
    display:flex;
    flex-direction: column;
+   background-color: #1A2238;
+   background-image: linear-gradient(#1A2238, grey);
 }
 
 .cities-container {
+   background-color: #001730;
    box-sizing: border-box;
-   background-color: #DCDCDC;
-   width: 100%;
+   box-shadow: 2px 2px 20px 1px black, -2px -2px 20px 1px black; 
+   border-radius: 12px;
+   width: auto;
+   margin: 2% 3%;
 }
 
 .city-Ul {
-   box-sizing: border-box;
    display: flex;
+   box-sizing: border-box;
+   list-style: none;
    padding: 0% 3%;
    margin: 2% 0%;
 }
 
 .city-Li {
+   color: lightgrey;
+   text-align: center;
    font-size: 15px;
    width: 33%;
 }
 
 .location-page-iframe {
    box-sizing: border-box;
-   width: 100%;
-   height: 510px;
+   box-shadow: 2px 2px 20px 1px, -2px -2px 20px 1px; 
+   border-radius: 12px;
+   width: auto;
+   height: 470px;
+   margin: 0% 3%;
 }
 
 .address-container {
+   background-color: #001730;
+   box-shadow: 2px 2px 20px 1px, -2px -2px 20px 1px; 
    box-sizing: border-box;
-   background-color: #DCDCDC;
-   width: 100%;
+   border-radius: 12px;
+   width: auto;
+   height: auto;
+   margin: 2% 3%;
 }
 
 .address-Ul {
+   display:flex;
+   list-style: none;
    box-sizing: border-box;
-   display: flex;
-   padding: 0% 3%;
-   margin: 2% 0%;
+   width: auto;
+   padding: 0% 1%;
+   margin: 1% 0%;
 }
 
 .address-Li {
-   display: flex;
+   text-align: center;
+   background-color: lightgrey;
+   border-radius: 12px;
    font-size: 15px;
    width: 33%;
+   padding: 1% 1%;
+   margin: 0% 4%;
 }
 
 .location-page-a {
@@ -52,9 +73,10 @@
 }
 
 .location-page-h2 {
+   background-color: #26699c;
    text-align: center;
-   color: lightblue;
-   background-color: #878888;
-   margin: 0%;
+   color: black;
+   border-radius: 12px 12px 0px 0px;
    padding:1%;
+   margin: 0%;
 }
