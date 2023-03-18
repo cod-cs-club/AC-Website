@@ -1,17 +1,15 @@
 .main-container {
    display:flex;
    flex-direction: column;
-   background-color: #1A2238;
-   background-image: linear-gradient(#1A2238, grey);
+   background-image: linear-gradient(#1A2238,#ededed);
 }
 
 .cities-container {
-   background-color: #001730;
+   background-color: transparent;
    box-sizing: border-box;
-   box-shadow: 2px 2px 20px 1px black, -2px -2px 20px 1px black; 
-   border-radius: 12px;
+   box-shadow: 0px 3px 20px 1px; 
    width: auto;
-   margin: 2% 3%;
+   margin: 0%;
 }
 
 .city-Ul {
@@ -24,60 +22,73 @@
 
 
 .city-Li {
-   color: lightgrey;
+   font-family: Impact;
+   font-size: 2vw;
+   color: #F4DB7D;
+   box-sizing: border-box;;
    text-align: center;
-   font-size: 15px;
    width: 33%;
 }
 
 .location-page-iframe {
    box-sizing: border-box;
-   box-shadow: 2px 2px 20px 1px, -2px -2px 20px 1px; 
-   border-radius: 12px;
    width: auto;
-   height: 470px;
-   margin: 0% 3%;
+   height: 400px;
+   margin: 0% 3% 0% 3%;
 }
 
 .address-container {
-   background-color: #001730;
-   box-shadow: 2px 2px 20px 1px, -2px -2px 20px 1px; 
+   background-color: #1A2238;
    box-sizing: border-box;
-   border-radius: 12px;
+   border: 2px solid #1A2238;
+   border-radius: 0px 0px 12px 12px;
+   text-align: center;
    width: auto;
    height: auto;
-   margin: 2% 3%;
+   margin: 0% 3% 3% 3%;
 }
 
 .address-Ul {
    display:flex;
+   flex-direction: row;
+   flex-wrap: wrap;
    list-style: none;
    box-sizing: border-box;
-   width: auto;
    padding: 0% 1%;
-   margin: 1% 0%;
+   margin: 2%;
 }
 
 .address-Li {
-   text-align: center;
-   background-color: lightgrey;
-   border-radius: 12px;
-   font-size: 15px;
+   font-family: Impact;
+   font-size: 2vw;
    width: 33%;
-   padding: 1% 1%;
-   margin: 0% 4%;
 }
+
+.address-Li a:hover {
+   color: #ff8000;
+} 
 
 .location-page-a {
    text-decoration: none;
-   color: black;
+   color: #F4DB7D
+   ;
 }
 
 .location-page-h2 {
-   background-color: #26699c;
+   background-color: #1A2238;
    text-align: center;
-   color: black;
-   border-radius: 12px 12px 0px 0px;
-   padding:1%;
+   font-size: 3vw;
+   color: white;
+   padding:.5%;
    margin: 0%;
+}
+
+.location-page-h3 {
+   background-color: #1A2238;
+   border-radius: 12px 12px 0px 0px;
+   text-align: center;
+   font-size: 2.7vw;
+   color: white;
+   padding:1%;
+   margin: 3% 3% 0% 3%;
 }
