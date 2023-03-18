@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+h1 {
+    font-size: 1.85rem;
+}
+
+
 .services-description {
     padding-left: 1%;
     padding-right: 1%;
@@ -16,14 +21,22 @@
 #service-images-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 1.5rem;
     justify-content: center;
 }
 
 #service-images-container img {
     max-width: 100%;
-    width: 22.5rem;
-    height: 22.5rem;
-    border-radius: 5px;
+    width: 19.5rem;
+    height: 18rem;
+    border-radius: 0.25rem;
     object-fit: cover;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+/* Logos */
+.logo-heading {
+    text-align: center;
+    margin-top: 50px;
 }
