@@ -8,26 +8,30 @@
    background-color: transparent;
    box-sizing: border-box;
    box-shadow: 0px 3px 20px 1px; 
+   text-align: center;
    width: auto;
    margin: 0%;
 }
 
 .city-Ul {
    display: flex;
-   box-sizing: border-box;
+   flex-direction: row;
+   flex-wrap: wrap;
    list-style: none;
-   padding: 0% 3%;
+   justify-content: center;
+   padding-left: 0%;
    margin: 2% 0%;
 }
 
 
 .city-Li {
+   box-sizing: border-box;
    font-family: Impact;
-   font-size: 2vw;
+   font-size: 1.5rem;
    color: #F4DB7D;
-   box-sizing: border-box;;
-   text-align: center;
-   width: 33%;
+   width: auto;
+   padding: 1%;
+   margin: 0% 10%;
 }
 
 .location-page-iframe {
@@ -42,9 +46,7 @@
    box-sizing: border-box;
    border: 2px solid #1A2238;
    border-radius: 0px 0px 12px 12px;
-   text-align: center;
    width: auto;
-   height: auto;
    margin: 0% 3% 3% 3%;
 }
 
@@ -54,14 +56,18 @@
    flex-wrap: wrap;
    list-style: none;
    box-sizing: border-box;
-   padding: 0% 1%;
-   margin: 2%;
+   justify-content: center;
+   width: auto;
+   padding-left: 0%;
+   margin: 1%;
+   
 }
 
 .address-Li {
    font-family: Impact;
-   font-size: 2vw;
-   width: 33%;
+   font-size: 1.5rem;
+   width: auto;
+   padding: 2%;
 }
 
 .address-Li a:hover {
@@ -76,8 +82,7 @@
 
 .location-page-h2 {
    background-color: #1A2238;
-   text-align: center;
-   font-size: 3vw;
+   font-size: 2rem;
    color: white;
    padding:.5%;
    margin: 0%;
@@ -87,7 +92,7 @@
    background-color: #1A2238;
    border-radius: 12px 12px 0px 0px;
    text-align: center;
-   font-size: 2.7vw;
+   font-size: 2rem;
    color: white;
    padding:1%;
    margin: 3% 3% 0% 3%;
