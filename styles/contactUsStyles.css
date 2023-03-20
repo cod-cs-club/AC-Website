@@ -1,0 +1,8 @@
+.mainFlavor {
+    width: 50%;
+    background-color: blue;
+}
+
+.getAQuoteToday {
+    height: height(mainFlavor);
+}
