@@ -20,14 +20,13 @@
    list-style: none;
    justify-content: center;
    padding-left: 0%;
-   margin: 2% 0%;
 }
 
 
 .city-Li {
    box-sizing: border-box;
    font-family: Impact;
-   font-size: 1.5rem;
+   font-size: 2rem;
    color: #F4DB7D;
    width: auto;
    padding: 1%;
@@ -65,7 +64,7 @@
 
 .address-Li {
    font-family: Impact;
-   font-size: 1.5rem;
+   font-size: 2rem;
    width: auto;
    padding: 2%;
 }
@@ -82,7 +81,7 @@
 
 .location-page-h2 {
    background-color: #1A2238;
-   font-size: 2rem;
+   font-size: 2.5rem;
    color: white;
    padding:.5%;
    margin: 0%;
@@ -92,7 +91,7 @@
    background-color: #1A2238;
    border-radius: 12px 12px 0px 0px;
    text-align: center;
-   font-size: 2rem;
+   font-size: 2.5rem;
    color: white;
    padding:1%;
    margin: 3% 3% 0% 3%;
