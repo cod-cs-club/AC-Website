@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+#Header{
+    width:90%;
+    border-style: solid;
+    margin: auto;
+}
+
+.headerButtonDiv{
+    width: 100%;
+    margin-left: auto;
+    border-style: solid;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerButton{
+    border-radius: 10%;
+    width: 200px;
+}
+
+#logo{
+    border-style: solid;
+    max-width: 50%;
+    height: 100px;
+}
+
+footer{
+    width:90%;
+    border-style: solid;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#gitHubLogo{
+    width:40px;
+    height: auto;
+}
+
+#gitHubLogo:hover{
+    opacity: 50%;
+}
