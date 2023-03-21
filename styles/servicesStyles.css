@@ -49,10 +49,9 @@ h1 {
 }
 
 #logos-container img {
-    max-width: 50%;
     width: 10rem;
     height: auto;
     object-fit: contain;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
 }
