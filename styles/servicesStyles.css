@@ -53,4 +53,9 @@ h1 {
     height: auto;
     object-fit: contain;
     margin: 30px 10px;
+    transition: 0.15s
+}
+
+#logos-container img:hover {
+    transform: scale(1.2);
 }
