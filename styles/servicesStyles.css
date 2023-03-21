@@ -40,3 +40,19 @@ h1 {
     text-align: center;
     margin-top: 50px;
 }
+
+#logos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+#logos-container img {
+    max-width: 50%;
+    width: 10rem;
+    height: auto;
+    object-fit: contain;
+    margin-left: 2%;
+    margin-right: 2%;
+}
