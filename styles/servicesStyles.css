@@ -52,6 +52,5 @@ h1 {
     width: 10rem;
     height: auto;
     object-fit: contain;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin: 30px 10px;
 }
