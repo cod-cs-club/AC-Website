@@ -1,11 +1,3 @@
-function tester(){
-    for(i=0; i<10; i++){
-        console.log(i);
-    }
-}
-
-export default {tester}
-/*
 let slideIndex = 1;
 let myTimer;
 
@@ -45,4 +37,3 @@ function showSlides(n) {
     }
     slides[slideIndex-1].style.display = "block";
 }
-*/
