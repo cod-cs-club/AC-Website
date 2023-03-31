@@ -2,46 +2,45 @@
     box-sizing: border-box;
 }
 
-#Header{
-    width:90%;
-    border-style: solid;
-    margin: auto;
+body {
+    margin: 0;
 }
 
-.headerButtonDiv{
-    width: 100%;
-    margin-left: auto;
-    border-style: solid;
+.FlexContainer{
+    display: flex;
+}
+
+nav{
+    background-color: rgb(200, 198, 209);
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.navPageItem{
+    display: flex;
     align-items: center;
 }
 
-.headerButton{
-    border-radius: 10%;
-    width: 200px;
-}
-
-#logo{
-    border-style: solid;
-    max-width: 50%;
-    height: 100px;
+#navButton{
+    font-size: 110%;
+    padding: 16px;
+    border-radius: 20%;
 }
 
 footer{
-    width:90%;
-    border-style: solid;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
     text-align: center;
     justify-content: center;
     align-items: center;
+    background-color: rgb(200, 198, 209);;
 }
 
-#gitHubLogo{
-    width:40px;
-    height: auto;
+#footerHeading{
+    font-size: 300%;
 }
 
 #gitHubLogo:hover{

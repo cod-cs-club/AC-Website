@@ -1,10 +1,15 @@
-import Homepage from './homepage.jsx'
+import NavBar from 'components/NavBar.jsx'
+import Footer from 'components/Footer.jsx'
+import ImageCarousel from 'components/ImageCarousel.jsx'
+import Header from 'components/Header.jsx'
 
 export default function Home() {
   return (
     <>
-    <Homepage />
-    
+    <Header />
+    <NavBar />
+    <ImageCarousel />
+    <Footer />
     </>
   )
 }

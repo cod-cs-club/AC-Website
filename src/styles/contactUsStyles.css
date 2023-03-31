@@ -1,8 +1,15 @@
-.mainFlavor {
-    width: 50%;
-    background-color: blue;
+#contactTextDiv{
+    width:50%;
 }
 
-.getAQuoteToday {
-    height: height(mainFlavor);
+#contactBoxDiv{
+    margin: 0 auto;
+    justify-content: center;
+}
+
+#ContactBoxContainer{
+    width: 100%;
+    text-align: center;
+    border-style: solid;
+    border-color: red;
 }
