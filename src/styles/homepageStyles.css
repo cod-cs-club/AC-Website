@@ -1,10 +1,29 @@
-#imageSlider{
-    background-size: cover;
-    margin-left: 0 auto;
+#landingTextDiv{
+    width: 50%;
+}
+
+#landingParagraph{
+    font-size: 130%;
+}
+
+#sliderDiv{
+    margin: 0 auto;
+    justify-content: center;
 }
 
 #sliderContainer{
     height:auto;
-    width:500px;
-    position: relative;
+}
+
+#sliderButtonDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sliderButton{
+    font-size: 130%;
+    width:200px;
+    gap: 20px;
+    padding: 5px;
 }

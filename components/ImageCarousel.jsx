@@ -27,6 +27,7 @@ import { useState } from 'react';
 export default function ImageCarousel({slides}){
     let arrayLength = slides.length;
     const [currentSlideIndex, setSlideIndex] = useState(0);
+    
     function nextImg(){
         const isThisTheFinalSlide = currentSlideIndex == arrayLength - 1;
         const newIndex = isThisTheFinalSlide ? 0 : currentSlideIndex + 1;
@@ -39,16 +40,16 @@ export default function ImageCarousel({slides}){
         setSlideIndex(newIndex);
     }
 
-
     return(
         <>
         <div id="sliderContainer">
-
             <div>
-                <Image src={slides[currentSlideIndex].src} width="300" height="300" />
+                <Image src={slides[currentSlideIndex].src} width="500" height="350" />
             </div>
-            <button onClick={() => nextImg()}>Next</button>
-            <button onClick={() => prevImg()}>Back</button>
+            <div id="sliderButtonDiv">
+            <button className="sliderButton" onClick={() => prevImg()}>{"<<"}</button>
+                <button className="sliderButton" onClick={() => nextImg()}>{">>"}</button>
+            </div>
         </div>
         </>
     )
