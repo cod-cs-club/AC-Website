@@ -3,10 +3,18 @@
     padding-right: 1%;
     width: 100%;
     text-align: center;
+    background-color: #f2f2f2;
 }
 
 .services-description p {
     font-size: 1.30rem;
+    padding: 10px 0 30px 0;
+}
+
+.services-description h1 {
+    font-size: 2rem;
+    margin: 0;
+    padding: 20px 0 0 0;
 }
 
 #service-images-container {
@@ -14,6 +22,7 @@
     flex-wrap: wrap;
     gap: 1.5rem;
     justify-content: center;
+    padding: 20px 5px;
 }
 
 #service-images-container img {
@@ -29,14 +38,23 @@
 /* Logos */
 .logo-heading {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 25px;
+    background-color: #f2f2f2;
 }
+
+.logo-heading h1 {
+    padding: 20px 0 0 0;
+    margin-top: 0px;
+    margin-bottom: 0px;    
+}
+
 
 #logos-container {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
+    background-color: #f2f2f2;
 }
 
 #logos-container img {
@@ -44,7 +62,7 @@
     max-width: 100%;
     width: 10rem;
     height: 9rem;
-    margin: 30px 10px;
+    margin: 15px 10px;
     transition: 0.15s
 }
 
