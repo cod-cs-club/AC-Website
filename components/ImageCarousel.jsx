@@ -24,10 +24,12 @@
 import Image from 'next/image'
 import { useState } from 'react';
 
+var timer;
+
 export default function ImageCarousel({slides}){
     let arrayLength = slides.length;
     const [currentSlideIndex, setSlideIndex] = useState(0);
-    
+
     function nextImg(){
         const isThisTheFinalSlide = currentSlideIndex == arrayLength - 1;
         const newIndex = isThisTheFinalSlide ? 0 : currentSlideIndex + 1;
@@ -39,6 +41,16 @@ export default function ImageCarousel({slides}){
         const newIndex = isThisTheFirstSlide ? arrayLength - 1 : currentSlideIndex - 1;
         setSlideIndex(newIndex);
     }
+
+    function autoslide(){
+        const isThisTheFinalSlide = currentSlideIndex == arrayLength - 1;
+        const newIndex = isThisTheFinalSlide ? 0 : currentSlideIndex + 1;
+        setSlideIndex(newIndex);
+    }
+
+    clearTimeout(timer);
+    timer = setTimeout(() => autoslide(1), 3000);
+
 
     return(
         <>
@@ -54,3 +66,4 @@ export default function ImageCarousel({slides}){
         </>
     )
 }
+
