@@ -4,12 +4,12 @@ import ImageCarousel from 'components/ImageCarousel.jsx'
 import Header from 'components/Header.jsx'
 
 const sliderImages = [
-  {name: "img1", src:"/AC-unit.jpg"},
-  {name: "img2", src:"/BasementUnit2.png"},
-  {name: "img3", src:"/BasementUnit1.png"},
-  {name: "img4", src:"/Closet-AC.jpg"},
-  {name: "img5", src:"/Humidifier1.jpg"},
-  {name: "img6", src:"/Humidifier2.jpg"}
+  {name: "img1", src:"/Company Images/AC-Unit.jpg"},
+  {name: "img2", src:"/Company Images/BasementUnit2.png"},
+  {name: "img3", src:"/Company Images/BasementUnit1.png"},
+  {name: "img4", src:"/Company Images/Closet-AC.jpg"},
+  {name: "img5", src:"/Company Images/Humidifier1.jpg"},
+  {name: "img6", src:"/Company Images/Humidifier2.jpg"}
 ]
 
 export default function Home() {
