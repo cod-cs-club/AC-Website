@@ -19,6 +19,8 @@
 #sliderDiv{
     margin: 0 auto;
     justify-content: center;
+    position: relative;
+
 }
 
 #sliderDiv img {
@@ -32,12 +34,32 @@
     align-items: center;
 }
 
-.sliderButton{
-    font-size: 130%;
-    width:200px;
-    gap: 20px;
-    padding: 5px;
+.sliderButtonleft{
+    font-size: 200%;
+    color: white;
+    width:50px;
+    padding: 5px; 
+    position: absolute;
+    top: 30%;
+    left: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
+
+.sliderButtonright{
+    font-size: 200%;
+    color: white;
+    width:50px;
+    padding: 5px; 
+    position: absolute;
+    top: 30%;
+    right: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
 
 #getQuotecontainer {
     display: flex;

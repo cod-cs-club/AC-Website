@@ -59,8 +59,8 @@ export default function ImageCarousel({slides}){
                 <Image src={slides[currentSlideIndex].src} width="400" height="250" />
             </div>
             <div id="sliderButtonDiv">
-            <button className="sliderButton" onClick={() => prevImg()}>{"<<"}</button>
-                <button className="sliderButton" onClick={() => nextImg()}>{">>"}</button>
+                <button className="sliderButtonleft" onClick={() => prevImg()}>&#x21e4;</button>
+                <button className="sliderButtonright" onClick={() => nextImg()}>&#x21e5;</button>
             </div>
         </div>
         </>
