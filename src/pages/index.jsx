@@ -30,14 +30,6 @@ export default function Home() {
             Ab eaque beatae et explicabo corrupti qui animi laborum. 
           </p>
       </div>
-      <div id="getQuotecontainer">
-        <p>Get a Quote Today!</p>
-          <div className="getQuotebutton">
-            <p>GET QUOTE</p>
-          </div>
-        <p>OR</p>
-        <p>Give us a call!</p>
-      </div>
     </div>
     <Footer />
     </>
