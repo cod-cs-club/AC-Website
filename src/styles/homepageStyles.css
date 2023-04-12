@@ -20,7 +20,6 @@
     margin: 0 auto;
     justify-content: center;
     position: relative;
-
 }
 
 #sliderDiv img {
@@ -31,13 +30,13 @@
 #sliderButtonDiv{
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
-.sliderButtonleft{
+.sliderButtonleft {
     font-size: 200%;
     color: white;
-    width:50px;
+    border-radius: 50%;
+    width: 50px;
     padding: 5px; 
     position: absolute;
     top: 30%;
@@ -47,9 +46,10 @@
     cursor: pointer;
 }
 
-.sliderButtonright{
+.sliderButtonright {
     font-size: 200%;
     color: white;
+    border-radius: 50%;
     width:50px;
     padding: 5px; 
     position: absolute;
@@ -58,6 +58,39 @@
     background-color: transparent;
     border: none;
     cursor: pointer;
+}
+
+.sliderButtonright:hover {
+    background-color: #bfc1c1;
+    transition: 0.5s ease;
+}
+
+.sliderButtonleft:hover {
+    background-color: #bfc1c1;
+    transition: 0.5s ease;
+}
+
+.dots {
+    height: 13px;
+    width: 13px;
+    margin: 0 3px;
+    background-color: #bfc1c1;
+    border-radius: 50%;
+    transition: 0.5s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.dotDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    top: 65%;
+} 
+
+.dots:hover {
+    background-color: #717161;
 }
 
 

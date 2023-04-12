@@ -48,6 +48,15 @@ export default function ImageCarousel({slides}){
         setSlideIndex(newIndex);
     }
 
+    function dotClick(num) {
+        if (num == currentSlideIndex)
+            return false;
+    
+        else
+            (num != currentSlideIndex)
+            setSlideIndex(num);
+    }
+
     clearTimeout(timer);
     timer = setTimeout(() => autoslide(1), 3000);
 
@@ -59,11 +68,20 @@ export default function ImageCarousel({slides}){
                 <Image src={slides[currentSlideIndex].src} width="400" height="250" />
             </div>
             <div id="sliderButtonDiv">
-                <button className="sliderButtonleft" onClick={() => prevImg()}>&#x21e4;</button>
-                <button className="sliderButtonright" onClick={() => nextImg()}>&#x21e5;</button>
-            </div>
+                <button className="sliderButtonleft" onClick={() => prevImg()}>&#x3c;</button>
+                <button className="sliderButtonright" onClick={() => nextImg()}>&#x3e;</button>
+            <div className="dotDiv">   
+                <span className="dots" onClick={() => dotClick(0)}></span>
+                <span className="dots" onClick={() => dotClick(1)}></span>
+                <span className="dots" onClick={() => dotClick(2)}></span>
+                <span className="dots" onClick={() => dotClick(3)}></span>
+                <span className="dots" onClick={() => dotClick(4)}></span>
+                <span className="dots" onClick={() => dotClick(5)}></span>
+            </div>    
+            </div> 
         </div>
         </>
     )
 }
+
 
