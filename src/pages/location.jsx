@@ -1,11 +1,9 @@
 import NavBar from 'components/NavBar.jsx'
 import Footer from 'components/Footer.jsx'
-import Header from 'components/Header.jsx'
 
 export default function LocationPage(){
     return (
         <>
-        <Header />
         <NavBar />
         <div className="main-container">
         <div className="cities-container">

@@ -2,29 +2,20 @@
     box-sizing: border-box;
 }
 
-.FlexContainer {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#landingTextDiv{
+.landingTextDiv{
     width: 50%;
     margin: 0 auto;
 }
 
-#landingParagraph{
-    font-size: 130%;
+.landingParagraphs{
+    font-size: 135%;
 }
 
 #sliderDiv{
+    margin: 5px 0;
     margin: 0 auto;
     justify-content: center;
     position: relative;
-}
-
-#sliderDiv img {
-    max-width: 100%;
-    min-width: 50%;
 }
 
 #sliderButtonDiv{
@@ -91,26 +82,4 @@
 
 .dots:hover {
     background-color: #717161;
-}
-
-
-#getQuotecontainer {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    border: 1px solid red;
-    max-width: 100%;
-    width: 300px;
-    height: 350px;
-    margin: 0 auto;
-}
-
-
-.getQuotebutton {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 95%;
-    margin: 0 auto;
-    border: 1px solid red;
 }

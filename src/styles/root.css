@@ -1,42 +1,114 @@
+/*Global*/
+
 * {
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
+    position: relative;
     margin: 0;
 }
 
+a,a:visited{
+    color:white;
+    text-decoration: none;
+    display: block;
+}
+
+/*Containers*/
+
 .FlexContainer{
     display: flex;
+    flex-wrap: wrap;
+}
+
+.CenteredFlexContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/*Header*/
+
+#navBarHeader{
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 200%;
+}
+
+#headerContact{
+    margin-left: auto;
+}
+
+#quoteButton{
+    margin-left: auto;
+    width:17%;
+    border-radius: 18%;
+    border: none;
+    background-color: rgb(81, 70, 232);
+    font-size: 120%;
+    text-align: center;
+    color: white;
+}
+
+#quoteButton:hover{
+    background-color: rgb(125, 117, 238);
 }
 
 nav{
-    background-color: rgb(200, 198, 209);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 0 1rem;
+    background-color: rgb(232, 70, 70);
+    padding: 1 1rem;
+}
+
+@media only screen and (max-width: 550px){
+    .CenteredFlexContainer {flex-direction: column;}
+    .navPageItem{padding: 10px;}
+}
+
+.navButtons{   
+    flex:auto;
+    font-size: 150%;
+    border: none;
+    background: none;
+    background-color: rgb(232, 70, 70);
+    transition: all .1s ease-in-out .1s;
+}
+
+.navButtons:hover{
+    font-size: 200%;
+    font-weight: 33;
+    background-color: rgb(248, 144, 144);
 }
 
 .navPageItem{
-    display: flex;
-    align-items: center;
+    padding:30px;
 }
 
-#navButton{
-    font-size: 110%;
-    padding: 16px;
-    border-radius: 20%;
+/*Body*/
+
+#wrapper{
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+/*Footer*/
+
+#footerContainer{
+    position: relative;
 }
 
 footer{
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
+    position: absolute;
+    width: 100%;
     text-align: center;
     justify-content: center;
     align-items: center;
-    background-color: rgb(200, 198, 209);;
+    background-color: rgb(232, 70, 70);
+    margin: 30px 0;
+    color: white;
 }
 
 #footerHeading{

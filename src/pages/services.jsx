@@ -2,12 +2,10 @@ import NavBar from 'components/NavBar.jsx'
 import Footer from 'components/Footer.jsx'
 import ServicesGrid from 'components/ServicesGrid.jsx'
 import CarriersGrid from 'components/CarriersGrid.jsx'
-import Header from 'components/Header.jsx'
 
 export default function ServicesPage(){
     return (
         <>
-        <Header />
         <NavBar />
         <div class="services-description">
             <h1>New Construction, Replacing Equipment & Service</h1>

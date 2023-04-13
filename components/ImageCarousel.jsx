@@ -65,7 +65,7 @@ export default function ImageCarousel({slides}){
         <>
         <div id="sliderContainer">
             <div>
-                <Image src={slides[currentSlideIndex].src} width="400" height="250" />
+                <Image src={slides[currentSlideIndex].src} width="500" height="370" />
             </div>
             <div id="sliderButtonDiv">
                 <button className="sliderButtonleft" onClick={() => prevImg()}>&#x3c;</button>
