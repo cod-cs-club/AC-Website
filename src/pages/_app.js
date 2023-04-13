@@ -3,7 +3,7 @@ import '@/styles/locationStyles.css'
 import '@/styles/aboutUsStyles.css'
 import '@/styles/homepageStyles.css'
 import '@/styles/servicesStyles.css'
-import '@/styles/contactUsStyles.css'
+import '@/styles/quoteStyles.css'
 import Head from 'next/head'
 
 
