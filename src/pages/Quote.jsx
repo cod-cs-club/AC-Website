@@ -16,28 +16,28 @@ export default function QuotePage(){
                         <label id="label-firstname" for="firstname">
                             <span>First Name</span>
                         </label>
-                        <input id="firstname" type="text" name="firstname" placeholder="First Name" inputmode="text" value="" autocomplete="given-name" required></input>
+                        <input id="firstname" type="text" name="firstname" placeholder="First Name" inputmode="text" autocomplete="given-name" required></input>
                     </fieldset>
 
                     <fieldset class="form-box2">
                         <label id="label-lastname" for="lastname">
                             <span>Last Name</span>
                         </label>
-                        <input id="lastname" type="text" name="lastname" placeholder="Last Name" inputmode="text" value="" required></input>
+                        <input id="lastname" type="text" name="lastname" placeholder="Last Name" inputmode="text" required></input>
                     </fieldset>
 
                     <fieldset id="form-box3">
                         <label id="label-email" for="email">
                             <span>Email</span>
                         </label>
-                        <input id="email" type="text" name="email" placeholder="Email Address" inputmode="text" value="" required></input>
+                        <input id="email" type="text" name="email" placeholder="Email Address" inputmode="text" required></input>
                     </fieldset>
 
                     <fieldset id="form-box4">
                         <label id="label-msg" for="msg">
                             <span>Message</span>
                         </label>
-                        <input id="msg" type="text" name="msg" placeholder="Enter your message" inputmode="text" value="" required></input>
+                        <input id="msg" type="text" name="msg" placeholder="Enter your message" inputmode="text" required></input>
                     </fieldset>
                     <div class="submit-button">
                         <input class="submit" type="submit" value="Submit"></input>
