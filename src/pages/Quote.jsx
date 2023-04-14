@@ -37,7 +37,7 @@ export default function QuotePage(){
                         <label id="label-msg" for="msg">
                             <span>Message</span>
                         </label>
-                        <input id="msg" type="text" name="msg" placeholder="Enter your message" inputmode="text" required></input>
+                        <textarea id="msg" type="text" name="msg" placeholder="Enter your message" inputmode="text" required></textarea>
                     </fieldset>
                     <div class="submit-button">
                         <input class="submit" type="submit" value="Submit"></input>

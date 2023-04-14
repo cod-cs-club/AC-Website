@@ -14,7 +14,7 @@ label {
     display: block;
     margin-bottom: 8px;
     font-size: 1rem;
-    font-weight: bold;
+    font-weight: 525;
 }
 
 input {
@@ -39,6 +39,12 @@ input:active {
     transition: none;
 }
 
+textarea{
+    width: 100%;
+    resize: vertical;
+    margin-bottom: 14px;
+}
+
 fieldset {
     margin: 0;
     padding: 0;
@@ -46,7 +52,8 @@ fieldset {
 }
 
 form {
-    outline: solid 5px red;
+    outline: solid 1px slategray;
+    background-color: wheat;
     width: 30%;
     margin: 0 auto;
     padding: 24px;
