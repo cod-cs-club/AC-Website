@@ -2,55 +2,60 @@
     box-sizing: border-box;
 }
 
-#image-carousel-container {
+.FlexContainer {
     display: flex;
-    max-width: 25rem;
-    position: relative;
-    left: 3%;
+    flex-wrap: wrap;
 }
 
-#image-carousel-container:first-child {
+#landingTextDiv{
+    width: 50%;
+    margin: 0 auto;
+}
+
+#landingParagraph{
+    font-size: 130%;
+}
+
+#sliderDiv{
+    margin: 0 auto;
     justify-content: center;
 }
 
-.homepage-images {
-    max-width: 85%;
-    margin: auto;
-
+#sliderDiv img {
+    max-width: 100%;
+    min-width: 50%;
 }
 
-.homepage-images img {
-    width: 100%;
-    object-fit: cover;
+#sliderButtonDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.prev,
-.next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6 ease;
-    border-radius: 0 2px 2px 0;
-    user-select: none
+.sliderButton{
+    font-size: 130%;
+    width:200px;
+    gap: 20px;
+    padding: 5px;
 }
 
-.next {
-    right: 7.5%;
-    border-radius: 2px 0 0 2px;
+#getQuotecontainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solid red;
+    max-width: 100%;
+    width: 300px;
+    height: 350px;
+    margin: 0 auto;
 }
 
-.prev {
-    left: 7.5%;
-}
 
-.prev:hover,
-.next:hover {
-    background-color: rgba(0,0,0,0.8)
+.getQuotebutton {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 95%;
+    margin: 0 auto;
+    border: 1px solid red;
 }
-
