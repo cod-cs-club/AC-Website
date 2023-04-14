@@ -87,11 +87,15 @@
 }
 
 /*Contact Box*/
+
 #contactTextDiv{
-    width:50%;
+    width:60%;
+    margin: 0 auto;
+    justify-content: center;
 }
 
 #contactBoxDiv{
+    display: block;
     margin: 0 auto;
     justify-content: center;
 }
