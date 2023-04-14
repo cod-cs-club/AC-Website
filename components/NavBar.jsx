@@ -3,10 +3,10 @@ import Image from 'next/image';
 
 const navLinks = [
     {name: "Home", href:"/"},
-    {name: "Services", href:"/Services"},
-    {name: "Location", href:"/Location"},
+    {name: "Services", href:"/services"},
+    {name: "Location", href:"/location"},
     {name: "Get a Quote", href:"/Quote"},
-    {name: "About Us", href:"/AboutUs"}
+    {name: "About Us", href:"/aboutUs"}
 ]
 
 export default function NavBar(){
