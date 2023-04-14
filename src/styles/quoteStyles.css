@@ -28,21 +28,24 @@ input {
     transition: all 0.2s ease-in-out;
 }
 
-input:hover,
-input:focus {
+textarea:hover, textarea:focus, input:hover, input:focus {
     outline: 0;
     border-color: hotpink;
 }
 
-input:active {
+textarea:active, input:active {
     color: hotpink;
     transition: none;
 }
 
-textarea{
+textarea {
     width: 100%;
     resize: vertical;
     margin-bottom: 14px;
+    min-height: 100px;
+    max-height: 225px;
+    transition: all 0.2s ease-in-out;
+    border: solid 1px grey;
 }
 
 fieldset {

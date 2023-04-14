@@ -30,15 +30,23 @@ export default function QuotePage(){
                         <label id="label-email" for="email">
                             <span>Email</span>
                         </label>
-                        <input id="email" type="text" name="email" placeholder="Email Address" inputmode="text" required></input>
+                        <input id="email" type="email" name="email" placeholder="Email Address" required></input>
+                    </fieldset>
+
+                    <fieldset id="form-box4">
+                        <label id="label-phone" for="phone">
+                            <span>Phone Number</span>
+                        </label>
+                        <input id="phone" type="tel" placeholder="(123) - 456 - 7890" required></input>
                     </fieldset>
 
                     <fieldset id="form-box4">
                         <label id="label-msg" for="msg">
                             <span>Message</span>
                         </label>
-                        <textarea id="msg" type="text" name="msg" placeholder="Enter your message" inputmode="text" required></textarea>
+                        <textarea id="msg" type="text" name="msg" placeholder="Additional Details" inputmode="text" required></textarea>
                     </fieldset>
+
                     <div class="submit-button">
                         <input class="submit" type="submit" value="Submit"></input>
                     </div>
