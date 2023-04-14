@@ -25,6 +25,7 @@ a,a:visited{
 
 .CenteredFlexContainer{
     display: flex;
+    gap: 1rem;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -60,7 +61,7 @@ a,a:visited{
 
 nav{
     background-color: rgb(232, 70, 70);
-    padding: 1 1rem;
+    padding: 1rem;
 }
 
 @media only screen and (max-width: 550px){
@@ -68,8 +69,10 @@ nav{
     .navPageItem{padding: 10px;}
 }
 
-.navButtons{   
-    flex:auto;
+.navButtons{
+    position: relative;
+    align-items: center;
+    flex: auto;
     font-size: 150%;
     border: none;
     background: none;
@@ -77,14 +80,24 @@ nav{
     transition: all .1s ease-in-out .1s;
 }
 
-.navButtons:hover{
-    font-size: 200%;
-    font-weight: 33;
-    background-color: rgb(248, 144, 144);
+/* Figure out how to make the line cover the length of the text and not the box */
+.navPageItem::after {
+    position: absolute;
+    width: 0%;
+    height: 4px;
+    content: "";
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    transition: width 0.5s ease-out;
+}
+
+.navPageItem:hover.navPageItem::after {
+    width: 100%;
 }
 
 .navPageItem{
-    padding:30px;
+    padding-bottom: 10px;
 }
 
 /*Body*/
