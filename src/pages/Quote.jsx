@@ -40,9 +40,15 @@ export default function QuotePage(){
                         <input id="phone" type="tel" placeholder="(123) - 456 - 7890" required></input>
                     </fieldset>
 
+                    <fieldset id="form-box5">
+                        <label id="service" for="service">
+                            <span>Type of Service</span>
+                        </label>
+                        <input id="service" type="text" placeholder="Tell us what type of service you need" required></input>
+                    </fieldset>
                     <fieldset id="form-box4">
                         <label id="label-msg" for="msg">
-                            <span>Message</span>
+                            <span>Details</span>
                         </label>
                         <textarea id="msg" type="text" name="msg" placeholder="Additional Details" inputmode="text" required></textarea>
                     </fieldset>
