@@ -1,10 +1,7 @@
-import NavBar from 'components/NavBar.jsx'
-import Footer from 'components/Footer.jsx'
 
 export default function AboutUsPage(){
     return (
         <>
-        <NavBar />
          <div className="FlexContainer">
             <div id="aboutUsTextDiv">
                 <div>
@@ -29,7 +26,6 @@ export default function AboutUsPage(){
                 </div>
             </div>
         </div>
-        <Footer />
         </>
     )
 }

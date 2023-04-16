@@ -1,12 +1,9 @@
-import NavBar from 'components/NavBar.jsx'
-import Footer from 'components/Footer.jsx'
 import ServicesGrid from 'components/ServicesGrid.jsx'
 import CarriersGrid from 'components/CarriersGrid.jsx'
 
 export default function ServicesPage(){
     return (
         <>
-        <NavBar />
         <div class="services-description">
             <h1>New Construction, Replacing Equipment & Service</h1>
             <p>
@@ -21,7 +18,6 @@ export default function ServicesPage(){
             <h1>Brands We Service</h1>
         </div>
         <CarriersGrid />
-        <Footer />
         </>
     )
 }

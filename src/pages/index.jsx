@@ -12,10 +12,10 @@ const sliderImages = [
   {name: "img6", src:"/Company Images/Humidifier2.jpg"}
 ]
 
+
 export default function Home() {
   return (
     <>
-    <NavBar />
     <div id="wrapper">
       <div className="FlexContainer">
         <div id="sliderDiv">
@@ -51,9 +51,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </div>
-    <div id="footerContainer">
-      <Footer />
     </div>
     </>
   )

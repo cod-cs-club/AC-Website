@@ -1,19 +1,34 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
-export default function Footer(){
+export default function Footer({footLinks}){
     return (
         <>
         <footer>
-            <div>
-                <b><h1 id="footerHeading">Contact Us!</h1></b>
-                <h4>(630)-440-5889 | APProInc@gmail.com</h4>
+            <div id="upperFooterContainer" className="FlexContainer">
+                <div className="FlexContainer">
+                    <Link href="/">
+                        <Image id="logo" src="/Company Images/CompanyLogo.png" width="180" height="90" alt="AP Pro Inc. Logo" />
+                    </Link>
+                    <h1 >AP Pro Inc</h1>
+                </div>
+                <div id="footerLinksContainer">
+                    {
+                    footLinks && footLinks.map(footItem =>{
+                        return (
+                            <ul id="footerLinkList">
+                                <li id="footLink"><a href={footItem.href} key={footItem.name}>{footItem.name}</a></li>
+                            </ul>
+                        )
+                    })
+                }
+                </div>
             </div>
-            <div>
-                <i><h6>Made in assocation with the College of DuPage Computer Science Club</h6></i>
-                <Link href="https://github.com/cod-cs-club/AC-Website">
-                    <Image id="gitHubLogo" src="/github.png" width="40" height="40" alt="GitHub logo" />
-                </Link>
+            <div style={{position:"relative"}}>
+                <div id="clubFooter">
+                    <i><h6>Wesbsite created in assocation with the College of DuPage Computer Science Club:</h6></i>
+                    <i><h6><Link id="gitHubLink" href="https://github.com/cod-cs-club/AC-Website">&nbsp;(GitHub)</Link></h6></i>
+                </div>
             </div>
         </footer>
         </>

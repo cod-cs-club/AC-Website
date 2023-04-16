@@ -1,10 +1,7 @@
-import NavBar from 'components/NavBar.jsx'
-import Footer from 'components/Footer.jsx'
 
 export default function QuotePage(){
     return (
         <>
-        <NavBar />
         <div id="quoteText">
             <div id="quote-heading">
                 <h1>Got a problem? We can fix it!</h1>
@@ -53,7 +50,6 @@ export default function QuotePage(){
                 </form>
             </div>
         </div>
-        <Footer />
         </>
     )
 }

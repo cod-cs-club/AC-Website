@@ -44,21 +44,6 @@ a,a:visited{
     margin-left: auto;
 }
 
-#quoteButton{
-    margin-left: auto;
-    width:17%;
-    border-radius: 18%;
-    border: none;
-    background-color: rgb(81, 70, 232);
-    font-size: 120%;
-    text-align: center;
-    color: white;
-}
-
-#quoteButton:hover{
-    background-color: rgb(125, 117, 238);
-}
-
 nav{
     background-color: rgb(232, 70, 70);
     padding: 1rem;
@@ -116,9 +101,6 @@ nav{
 footer{
     position: absolute;
     width: 100%;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
     background-color: rgb(232, 70, 70);
     margin: 30px 0;
     color: white;
@@ -128,6 +110,35 @@ footer{
     font-size: 300%;
 }
 
-#gitHubLogo:hover{
+#gitHubLink:hover{
+    opacity: 50%;
+}
+
+#footerLinksContainer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    padding-right: 50px;
+}
+
+#clubFooter{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(193, 55, 55);
+}
+
+#footerLinkList{
+
+}
+
+#footLink{
+    list-style-type: none;
+}
+#footLink:hover{
     opacity: 50%;
 }
