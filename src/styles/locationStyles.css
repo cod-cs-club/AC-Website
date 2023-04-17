@@ -1,16 +1,16 @@
 .main-container {
    display:flex;
    flex-direction: column;
-   background-image: linear-gradient(#1A2238,#ededed);
+   background-color: #ffffff;
 }
 
 .cities-container {
-   background-color: transparent;
+   background-color: #2984b2;
    box-sizing: border-box;
-   box-shadow: 0px 3px 20px 1px; 
+   border-radius: 12px 12px 0px 0px ;
    text-align: center;
    width: auto;
-   margin: 0%;
+   margin: 5% 3% 0% 3%;
 }
 
 .city-Ul {
@@ -26,7 +26,7 @@
    box-sizing: border-box;
    font-family: Impact;
    font-size: 2rem;
-   color: #F4DB7D;
+   color: #ffffff;
    width: auto;
    padding: 1%;
    margin: 0% 10%;
@@ -40,9 +40,8 @@
 }
 
 .address-container {
-   background-color: #1A2238;
+   background-color: #2984b2;
    box-sizing: border-box;
-   border: 2px solid #1A2238;
    border-radius: 0px 0px 12px 12px;
    width: auto;
    margin: 0% 3% 3% 3%;
@@ -58,7 +57,6 @@
    width: auto;
    padding-left: 0%;
    margin: 1%;
-   
 }
 
 .address-Li {
@@ -69,29 +67,13 @@
 }
 
 .address-Li a:hover {
-   color: #ff8000;
+   color: #000000;
 } 
 
-.location-page-a {
-   text-decoration: none;
-   color: #F4DB7D
-   ;
-}
-
 .location-page-h2 {
-   background-color: #1A2238;
+   background-color:transparent;
    font-size: 2.5rem;
-   color: white;
+   color: #ffffff;
    padding:.5%;
-   margin: 0%;
-}
-
-.location-page-h3 {
-   background-color: #1A2238;
-   border-radius: 12px 12px 0px 0px;
-   text-align: center;
-   font-size: 2.5rem;
-   color: white;
-   padding:1%;
-   margin: 3% 3% 0% 3%;
+   margin: 1%;
 }

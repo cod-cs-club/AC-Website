@@ -1,28 +1,23 @@
 import Link from "next/link";
 import Image from 'next/image';
 
-const navLinks = [
-    {name: "Home Page", href:"/"},
-    {name: "Services", href:"/services"},
-    {name: "Location", href:"/location"},
-    {name: "Contact Us", href:"/contactUs"},
-    {name: "About Us", href:"/aboutUs"}
-]
-
-export default function NavBar(){
+export default function NavBar({navLinks}){
     return (
         <>  
+        <div className="FlexContainer">
+            <Link href="/">
+                <Image id="logo" src="/Company Images/CompanyLogo.jpg" width="180" height="90" alt="AP Pro Inc. Logo" />
+            </Link>
+            <h1 style={{color:"red"}} id="navBarHeader">AP Pro Inc</h1>
+        </div>
         <nav>
-        <Link href="/">
-            <Image id="logo" src="/Company Images/CompanyLogo.jpg" width="180" height="90" alt="AP Pro Inc. Logo" />
-        </Link>
-            <div className="FlexContainer">
+            <div className="CenteredFlexContainer">
             {
-                navLinks.map(navItem =>{
+                navLinks && navLinks.map(navItem =>{
                     return (
-                        <Link className="navPageItem" href={navItem.href} key={navItem.name}>
-                            <button id="navButton">{navItem.name}</button>
-                        </Link>
+                        <button className="navButtons">
+                            <a className="navPageItem" href={navItem.href} key={navItem.name}>{navItem.name}</a>
+                        </button>
                     )
                 })
             }

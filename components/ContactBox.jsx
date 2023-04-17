@@ -1,12 +1,10 @@
-import Image from 'next/image';
-import Link from 'next/link';
-
-export default function ContactBox(){
+export default function ContactBox({}){
     return (
         <>
         <div id="ContactBoxContainer">
-            <h1 style={{color:"red"}}>Get a quote today!</h1>
+            <h1 style={{color:"red"}}>Get a Quote Now!</h1>
             <div>
+                <a href="/Quote"><button id="quoteButton">Get a quote</button></a>
                 <h2>Call or Text Now at:</h2>
                 <i><h3>(630)-440-5893</h3></i>
             </div>

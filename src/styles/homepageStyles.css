@@ -2,60 +2,121 @@
     box-sizing: border-box;
 }
 
-.FlexContainer {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#landingTextDiv{
+.landingTextDiv{
     width: 50%;
     margin: 0 auto;
 }
 
-#landingParagraph{
-    font-size: 130%;
+.landingParagraphs{
+    font-size: 135%;
 }
+
+/*Image Carosul*/
 
 #sliderDiv{
     margin: 0 auto;
     justify-content: center;
-}
-
-#sliderDiv img {
-    max-width: 100%;
-    min-width: 50%;
+    position: relative;
 }
 
 #sliderButtonDiv{
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
-.sliderButton{
-    font-size: 130%;
-    width:200px;
-    gap: 20px;
-    padding: 5px;
+.sliderButtonleft {
+    font-size: 200%;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    padding: 5px; 
+    position: absolute;
+    top: 45%;
+    left: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
 
-#getQuotecontainer {
+.sliderButtonright {
+    font-size: 200%;
+    color: white;
+    border-radius: 50%;
+    width:50px;
+    padding: 5px; 
+    position: absolute;
+    top: 45%;
+    right: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.sliderButtonright:hover {
+    background-color: #bfc1c1;
+    transition: 0.5s ease;
+}
+
+.sliderButtonleft:hover {
+    background-color: #bfc1c1;
+    transition: 0.5s ease;
+}
+
+.dots {
+    height: 13px;
+    width: 13px;
+    margin: 0 3px;
+    background-color: #bfc1c1;
+    border-radius: 50%;
+    transition: 0.5s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.dotDiv {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    border: 1px solid red;
-    max-width: 100%;
-    width: 300px;
-    height: 350px;
-    margin: 0 auto;
+    justify-content: center;
+    position: absolute;
+    top: 90%;
+} 
+
+.dots:hover {
+    background-color: #717161;
 }
 
+/*Contact Box*/
 
-.getQuotebutton {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 95%;
+#contactTextDiv{
+    width:60%;
     margin: 0 auto;
-    border: 1px solid red;
+    justify-content: center;
+}
+
+#contactBoxDiv{
+    display: block;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+#ContactBoxContainer{
+    width: 115%;
+    text-align: center;
+    border-style: groove;
+    border-color: red;
+    background-color: rgb(249, 231, 231);
+}
+
+#quoteButton{
+    margin-left: auto;
+    padding:20px;
+    border-radius: 15%;
+    border: none;
+    background-color: rgb(81, 70, 232);
+    font-size: 120%;
+    text-align: center;
+    color: white;
+}
+#quoteButton:hover{
+    background-color: rgb(129, 121, 242);
 }
