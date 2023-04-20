@@ -9,49 +9,37 @@ export default function QuotePage(){
             </div>
             <div>
                 <form>
-                    <fieldset class="form-box1">
-                        <label id="label-firstname" for="firstname">
-                            <span>First Name</span>
-                        </label>
-                        <input id="firstname" type="text" name="firstname" placeholder="First Name" inputmode="text" autocomplete="given-name" required></input>
-                    </fieldset>
 
-                    <fieldset class="form-box2">
-                        <label id="label-lastname" for="lastname">
-                            <span>Last Name</span>
-                        </label>
-                        <input id="lastname" type="text" name="lastname" placeholder="Last Name" inputmode="text" required></input>
-                    </fieldset>
+                <fieldset className="form-box1">
+                    <label id="label-email" htmlFor="subject">
+                        <span>Subject</span>
+                    </label>
+                    <input id="subject" type="subject" name="subject" placeholder="Subject" required></input>
+                </fieldset>
 
-                    <fieldset id="form-box3">
-                        <label id="label-email" for="email">
+                <fieldset className="form-box2">
+                    <label id="label-firstname" htmlFor="name">
+                        <span>Name</span>
+                    </label>
+                    <input id="firstname" type="text" name="name" placeholder="name" inputmode="text" autocomplete="given-name" required></input>
+                </fieldset>
+
+                    <fieldset className="form-box3">
+                        <label id="label-email" htmlFor="email">
                             <span>Email</span>
                         </label>
                         <input id="email" type="email" name="email" placeholder="Email Address" required></input>
-                    </fieldset>
+                </fieldset>
 
-                    <fieldset id="form-box4">
-                        <label id="label-phone" for="phone">
-                            <span>Phone Number</span>
-                        </label>
-                        <input id="phone" type="tel" placeholder="(123) - 456 - 7890" required></input>
-                    </fieldset>
+                <fieldset id="form-box4">
+                    <label id="label-msg" for="msg">
+                        <span>Details</span>
+                    </label>
+                    <textarea id="msg" type="text" name="message" placeholder="Additional Details" inputmode="text" required></textarea>
+                </fieldset>
 
-                    <fieldset id="form-box5">
-                        <label id="service" for="service">
-                            <span>Type of Service</span>
-                        </label>
-                        <input id="service" type="text" placeholder="Tell us what type of service you need" required></input>
-                    </fieldset>
-                    <fieldset id="form-box4">
-                        <label id="label-msg" for="msg">
-                            <span>Details</span>
-                        </label>
-                        <textarea id="msg" type="text" name="msg" placeholder="Additional Details" inputmode="text" required></textarea>
-                    </fieldset>
-
-                    <div class="submit-button">
-                        <input class="submit" type="submit" value="Submit"></input>
+                    <div className="submit-button">
+                        <input className="submit" type="submit" value="Submit"></input>
                     </div>
                 </form>
             </div>

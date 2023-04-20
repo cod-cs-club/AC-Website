@@ -1,5 +1,3 @@
-import NavBar from 'components/NavBar.jsx'
-import Footer from 'components/Footer.jsx'
 import ImageCarousel from 'components/ImageCarousel.jsx'
 import ContactBox from 'components/ContactBox.jsx'
 
@@ -11,7 +9,6 @@ const sliderImages = [
   {name: "img5", src:"/Company Images/Humidifier1.jpg"},
   {name: "img6", src:"/Company Images/Humidifier2.jpg"}
 ]
-
 
 export default function Home() {
   return (
