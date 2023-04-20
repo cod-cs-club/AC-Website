@@ -30,22 +30,23 @@ input {
 
 textarea:hover, textarea:focus, input:hover, input:focus {
     outline: 0;
-    border-color: hotpink;
+    border-color: rgb(105, 255, 210);
 }
 
 textarea:active, input:active {
-    color: hotpink;
     transition: none;
 }
 
 textarea {
     width: 100%;
     resize: vertical;
-    margin-bottom: 14px;
     min-height: 100px;
     max-height: 225px;
-    transition: all 0.2s ease-in-out;
+    margin-bottom: 14px;
+    padding: 8px 10px;
     border: solid 1px grey;
+    border-radius: 3px;
+    transition: all 0.2s ease-in-out;
 }
 
 fieldset {
@@ -59,11 +60,13 @@ form {
     background-color: wheat;
     width: 30%;
     margin: 0 auto;
+    margin-top: 30px;
     padding: 24px;
 }
 
 .submit {
     width: 100%;
+    min-height: 50px;
     font-size: 1rem;
     background-color: royalblue;
     border-radius: 3px;
