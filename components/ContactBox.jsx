@@ -1,7 +1,7 @@
 export default function ContactBox({}){
     return (
         <>
-        <div id="ContactBoxContainer">
+        <div id="internalContactBox">
             <h1 style={{color:"red"}}>Get a Quote Now!</h1>
             <div>
                 <a href="/Quote"><button id="quoteButton">Get a quote</button></a>

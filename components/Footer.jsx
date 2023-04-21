@@ -5,7 +5,7 @@ export default function Footer({footLinks}){
     return (
         <>
         <footer>
-            <div id="upperFooterContainer" className="FlexContainer">
+            <div className="FlexContainer">
                 <div className="FlexContainer">
                     <Link href="/">
                         <Image id="logo" src="/Company Images/CompanyLogo.png" width="180" height="90" alt="AP Pro Inc. Logo" />

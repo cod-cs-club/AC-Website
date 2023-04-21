@@ -11,7 +11,7 @@ export default function NavBar({navLinks}){
             <h1 style={{color:"red"}} id="navBarHeader">AP Pro Inc</h1>
         </div>
         <nav>
-            <div className="CenteredFlexContainer">
+            <div className="FlexContainer">
             {
                 navLinks && navLinks.map(navItem =>{
                     return (
