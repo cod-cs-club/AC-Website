@@ -55,6 +55,10 @@ export default function QuotePage() {
             <textarea type="text" id="message" name="message" value={values.message} placeholder="Additional Details" onChange={handleChange} required/>
           </div>
           <div>
+          <label htmlFor="image-attach">Attach an Image:</label>
+            <input type="file" name="image-attach"></input>
+          </div>
+          <div>
             <button className="submit" onClick={onSubmit} disabled={!values.name || !values.subject || !values.email || !values.message}>Submit</button>
           </div>
         </fieldset>
