@@ -56,7 +56,7 @@ export default function QuotePage() {
           </div>
           <div>
           <label htmlFor="image-attach">Attach an Image:</label>
-            <input type="file" accept="image/png, image/gif, image/jpeg" name="image-attach"></input>
+            <input type="file" accept="image/*" name="image-attach"></input>
           </div>
           <div>
             <button className="submit" onClick={onSubmit} disabled={!values.name || !values.subject || !values.email || !values.message}>Submit</button>
