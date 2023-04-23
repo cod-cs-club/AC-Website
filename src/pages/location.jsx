@@ -1,10 +1,9 @@
-
 export default function LocationPage(){
     return (
         <>
-        <div className="main-container">
+        <div className="mapContainer">
         <div className="cities-container">
-            <h2 className="location-page-h2">Areas we service</h2>
+            <h2 className="location-page-header">Areas we service</h2>
             <ul className="city-Ul">
                 <li className="city-Li">City</li>
                 <li className="city-Li">City</li>
