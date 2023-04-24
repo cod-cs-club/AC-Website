@@ -22,6 +22,33 @@
     justify-content: center;
     align-items: center;
 
+    //x nav toggle button
+    .nav-btn {
+        padding: 5px;
+        cursor: pointer;
+        background: transparent;
+        border: none;
+        outline: none;
+        color: black;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    //x nav toggle button
+    @media only screen and (max-width: 550px){
+        .nav-btn {
+            visibility: visible;
+            opacity: 1;
+            font-size: 1.8rem;
+        }
+
+        .nav-close-btn {
+            position: absolute;
+            top: 2rem;
+            left: 1rem;
+        }
+    }
+
     .paragraphContainer{
         width: 50%;
         margin: 0 auto;
@@ -32,10 +59,62 @@
     }   
 }
 
+//Nav button outside of the nav bar (three lines)
+.outside-nav {
+    .nav-btn {
+        padding: 5px;
+        cursor: pointer;
+        background: transparent;
+        border: none;
+        outline: none;
+        color: black;
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+@media only screen and (max-width: 550px){
+    .outside-nav {
+    
+        .nav-btn {
+            visibility: visible;
+            opacity: 1;
+            font-size: 1.8rem;
+            position: absolute;
+            top: 2rem;
+            left: 1rem;
+        }
+    }
+}
+
 //Navbar
+@media only screen and (max-width: 550px){
+    .responsive_nav {
+        transform: none;
+    }
+}
+
 nav{
     background-color: rgb(232, 70, 70);
     padding: 1rem;
+
+    @media only screen and (max-width: 550px){
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background-color: rgb(232, 70, 70);
+        transition: 1s;
+        transform: translateY(-100%); 
+        z-index: 1;
+    }
+
+    
 
     .navButtons{
         position: relative;
