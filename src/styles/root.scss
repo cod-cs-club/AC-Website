@@ -35,7 +35,7 @@
     }
 
     //x nav toggle button
-    @media only screen and (max-width: 550px){
+    @media only screen and (max-width: 800px){
         .nav-btn {
             visibility: visible;
             opacity: 1;
@@ -72,7 +72,7 @@
         opacity: 0;
     }
 }
-@media only screen and (max-width: 550px){
+@media only screen and (max-width: 800px){
     .outside-nav {
     
         .nav-btn {
@@ -87,7 +87,7 @@
 }
 
 //Navbar
-@media only screen and (max-width: 550px){
+@media only screen and (max-width: 800px){
     .responsive_nav {
         transform: none;
     }
@@ -97,7 +97,7 @@ nav{
     background-color: rgb(232, 70, 70);
     padding: 1rem;
 
-    @media only screen and (max-width: 550px){
+    @media only screen and (max-width: 800px){
         position: fixed;
         top: 0;
         left: 0;
@@ -113,7 +113,7 @@ nav{
         z-index: 1;
 
         .FlexContainer {flex-direction: column;}
-        .navPageItem{padding: 10px;}
+        .navPageItem{padding: 60px;}
     }
 
     
