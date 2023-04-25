@@ -104,7 +104,6 @@ nav{
         height: 100%;
         width: 100%;
         display: flex;
-        flex-direction: column;
         align-items: center;
         justify-content: center;
         gap: 1.5rem;
@@ -112,6 +111,9 @@ nav{
         transition: 1s;
         transform: translateY(-100%); 
         z-index: 1;
+
+        .FlexContainer {flex-direction: column;}
+        .navPageItem{padding: 10px;}
     }
 
     
@@ -144,11 +146,6 @@ nav{
         .navPageItem:hover.navPageItem::after {
             width: 100%;
         }
-    }
-
-    @media only screen and (max-width: 550px){
-        .FlexContainer {flex-direction: column;}
-        .navPageItem{padding: 10px;}
     }
 }
 
