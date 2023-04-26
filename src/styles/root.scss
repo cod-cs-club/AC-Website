@@ -44,7 +44,7 @@
 
         .nav-close-btn {
             position: absolute;
-            top: 2rem;
+            top: -2rem;
             left: 1rem;
         }
     }
@@ -106,14 +106,18 @@ nav{
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 1.5rem;
         background-color: rgb(232, 70, 70);
-        transition: 1s;
+        transition: 0.569s;
         transform: translateY(-100%); 
         z-index: 1;
 
-        .FlexContainer {flex-direction: column;}
-        .navPageItem{padding: 60px;}
+        .FlexContainer {
+            flex-direction: column;
+            width: 100%;
+            position: absolute;
+            top: 4rem;
+        }
+        .navPageItem{padding: 40px;}
     }
 
     
