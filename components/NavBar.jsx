@@ -6,7 +6,7 @@ export default function NavBar({navLinks}){
         <>  
         <div className="FlexContainer">
             <Link href="/">
-                <Image id="logo" src="/Company Images/CompanyLogo.jpg" width="180" height="90" alt="AP Pro Inc. Logo" />
+                <Image id="logo" src="/Company Images/CompanyLogo.png" width="180" height="90" alt="AP Pro Inc. Logo" />
             </Link>
             <h1 style={{color:"red"}} id="navBarHeader">AP Pro Inc</h1>
         </div>

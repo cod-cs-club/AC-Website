@@ -14,7 +14,7 @@ export default function ServicesPage(){
             </p>
         </div>
         <ServicesGrid />
-        <div class="logo-heading">
+        <div className="logo-heading">
             <h1>Brands We Service</h1>
             <CarriersGrid />
         </div>
