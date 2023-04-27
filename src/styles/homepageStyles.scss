@@ -80,9 +80,12 @@
             border-style: groove;
             border-color: red;
             background-color: rgb(249, 231, 231);
-            width:50%;
+            width:100%;
 
             #internalContactBox{
+                a{
+                    display: inline;
+                }
                 #quoteButton{
                     margin-left: auto;
                     padding:20px;
@@ -95,6 +98,7 @@
                 }
                 #quoteButton:hover{
                     background-color: rgb(129, 121, 242);
+                    cursor: pointer;
                 }
             }
         }   
