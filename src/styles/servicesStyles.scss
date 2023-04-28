@@ -28,6 +28,11 @@
 
 
     //Service Image 1
+
+    #serviceImage-1:hover {
+        transform: scale(1.03);
+    }
+
     #serviceImage-1 {
         max-width: 400px;
         max-height: 600px;
@@ -36,6 +41,9 @@
         flex-basis: calc(33.33% - 20px);
         text-align: center;
         border: 5px solid red;
+        box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.2);
+        transition-duration: 300ms;
+        transition-timing-function: ease-out;
 
         #image1 {
             max-width: 100%;
@@ -56,6 +64,8 @@
         flex-basis: calc(33.33% - 20px);
         text-align: center;
         border: 5px solid red;
+        box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.2);
+
 
         #image2 {
             max-width: 100%;
@@ -76,6 +86,7 @@
         flex-basis: calc(33.33% - 20px);
         text-align: center;
         border: 5px solid red;
+        box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.2);
 
         #image3 {
             max-width: 100%;
@@ -96,6 +107,8 @@
         flex-basis: calc(33.33% - 20px);
         text-align: center;
         border: 5px solid red;
+        box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.2);
+
 
         #image4 {
             max-width: 100%;
@@ -116,6 +129,8 @@
         flex-basis: calc(33.33% - 20px);
         text-align: center;
         border: 5px solid red;
+        box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.2);
+
 
         #image5 {
             max-width: 100%;
@@ -136,6 +151,8 @@
         flex-basis: calc(33.33% - 20px);
         text-align: center;
         border: 5px solid red;
+        box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.2);
+
 
         #image6 {
             max-width: 100%;
@@ -156,6 +173,8 @@
         flex-basis: calc(33.33% - 20px);
         text-align: center;
         border: 5px solid red;
+        box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.2);
+
 
         #image7 {
             max-width: 100%;
@@ -176,6 +195,8 @@
         flex-basis: calc(33.33% - 20px);
         text-align: center;
         border: 5px solid red;
+        box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.2);
+
 
         #image8 {
             max-width: 100%;
@@ -196,6 +217,8 @@
         flex-basis: calc(33.33% - 20px);
         text-align: center;
         border: 5px solid red;
+        box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.2);
+
 
         #image9 {
             max-width: 100%;
