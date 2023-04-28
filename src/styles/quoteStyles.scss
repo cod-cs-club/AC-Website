@@ -4,7 +4,7 @@ form {
     background-color: wheat;
     width: 30%;
     margin: 2em auto 0 auto;
-    padding: 24px;
+    padding: 2em;
 
     label {
         display: block;
@@ -64,3 +64,10 @@ form {
         }
     }
 }
+
+//responsive form
+@media screen and (max-width: 600px) {
+    form {
+      width: 90%;
+    }
+  }
