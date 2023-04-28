@@ -22,8 +22,192 @@
 #service-images-container {
     display: flex;
     flex-wrap: wrap;
+    gap: 3.2rem;
+    margin: 0 85px;
     justify-content: center;
 
+
+    //Service Image 1
+    #serviceImage-1 {
+        max-width: 400px;
+        max-height: 600px;
+        display: flex;
+        flex-direction: column;
+        flex-basis: calc(33.33% - 20px);
+        text-align: center;
+        border: 5px solid red;
+
+        #image1 {
+            max-width: 100%;
+
+            img{
+                max-width: 390px;
+                max-height: 350px;
+                border-bottom: 5px solid red;
+            }
+        }
+    }
+
+    #serviceImage-2 {
+        max-width: 400px;
+        max-height: 600px;
+        display: flex;
+        flex-direction: column;
+        flex-basis: calc(33.33% - 20px);
+        text-align: center;
+        border: 5px solid red;
+
+        #image2 {
+            max-width: 100%;
+            
+            img{
+                max-width: 390px;
+                max-height: 350px;
+                border-bottom: 5px solid red;
+            }
+        }
+    }
+
+    #serviceImage-3 {
+        max-width: 400px;
+        max-height: 600px;
+        display: flex;
+        flex-direction: column;
+        flex-basis: calc(33.33% - 20px);
+        text-align: center;
+        border: 5px solid red;
+
+        #image3 {
+            max-width: 100%;
+            
+            img{
+                max-width: 390px;
+                max-height: 350px;
+                border-bottom: 5px solid red;
+            }
+        }
+    }
+
+    #serviceImage-4 {
+        max-width: 400px;
+        max-height: 600px;
+        display: flex;
+        flex-direction: column;
+        flex-basis: calc(33.33% - 20px);
+        text-align: center;
+        border: 5px solid red;
+
+        #image4 {
+            max-width: 100%;
+            
+            img{
+                max-width: 390px;
+                max-height: 350px;
+                border-bottom: 5px solid red;
+            }
+        }
+    }
+
+    #serviceImage-5 {
+        max-width: 400px;
+        max-height: 600px;
+        display: flex;
+        flex-direction: column;
+        flex-basis: calc(33.33% - 20px);
+        text-align: center;
+        border: 5px solid red;
+
+        #image5 {
+            max-width: 100%;
+            
+            img{
+                max-width: 390px;
+                max-height: 350px;
+                border-bottom: 5px solid red;
+            }
+        }
+    }
+
+    #serviceImage-6 {
+        max-width: 400px;
+        max-height: 600px;
+        display: flex;
+        flex-direction: column;
+        flex-basis: calc(33.33% - 20px);
+        text-align: center;
+        border: 5px solid red;
+
+        #image6 {
+            max-width: 100%;
+            
+            img{
+                max-width: 390px;
+                max-height: 350px;
+                border-bottom: 5px solid red;
+            }
+        }
+    }
+
+    #serviceImage-7 {
+        max-width: 400px;
+        max-height: 600px;
+        display: flex;
+        flex-direction: column;
+        flex-basis: calc(33.33% - 20px);
+        text-align: center;
+        border: 5px solid red;
+
+        #image7 {
+            max-width: 100%;
+            
+            img{
+                max-width: 390px;
+                max-height: 350px;
+                border-bottom: 5px solid red;
+            }
+        }
+    }
+
+    #serviceImage-8 {
+        max-width: 400px;
+        max-height: 600px;
+        display: flex;
+        flex-direction: column;
+        flex-basis: calc(33.33% - 20px);
+        text-align: center;
+        border: 5px solid red;
+
+        #image8 {
+            max-width: 100%;
+            
+            img{
+                max-width: 390px;
+                max-height: 350px;
+                border-bottom: 5px solid red;
+            }
+        }
+    }
+
+    #serviceImage-9 {
+        max-width: 400px;
+        max-height: 600px;
+        display: flex;
+        flex-direction: column;
+        flex-basis: calc(33.33% - 20px);
+        text-align: center;
+        border: 5px solid red;
+
+        #image9 {
+            max-width: 100%;
+            
+            img{
+                max-width: 390px;
+                max-height: 350px;
+                border-bottom: 5px solid red;
+            }
+        }
+    }
+/*
     img {
         max-width: 100%;
         width: 55vh;
@@ -32,6 +216,7 @@
         object-fit: fill;
         padding: 10px;
     }
+*/
 }
 
 //Carrier Logos Heading
