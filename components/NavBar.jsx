@@ -22,7 +22,7 @@ export default function NavBar({navLinks}){
             {
                 navLinks && navLinks.map(navItem =>{
                     return (
-                        <button className="navButtons">
+                        <button className="navButtons" key={navItem.name+"Button"}>
                             <Link className="navPageItem" href={navItem.href} key={navItem.name}>{navItem.name}</Link>
                         </button>
                     )
@@ -35,7 +35,7 @@ export default function NavBar({navLinks}){
         </nav>
         <div className="outside-nav">
             <button className="nav-btn" onClick={showNavbar}>
-                    <FaBars />
+                <FaBars />
             </button>
         </div>
         </>
