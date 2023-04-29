@@ -1,7 +1,14 @@
 import Link from "next/link";
 import Image from 'next/image';
+import { FaTimes, FaBars } from "react-icons/fa"
+import { useRef } from "react"
 
 export default function NavBar({navLinks}){
+    const navRef = useRef();
+
+    const showNavbar = () =>
+        navRef.current.classList.toggle("responsive_nav");
+
     return (
         <>  
         <div className="FlexContainer">
@@ -10,7 +17,7 @@ export default function NavBar({navLinks}){
             </Link>
             <h1 style={{color:"red"}} id="navBarHeader">AP Pro Inc</h1>
         </div>
-        <nav>
+        <nav ref={navRef}>
             <div className="FlexContainer">
             {
                 navLinks && navLinks.map(navItem =>{
@@ -21,8 +28,16 @@ export default function NavBar({navLinks}){
                     )
                 })
             }
+                <button className="nav-btn nav-close-btn" onClick={showNavbar}>
+                    <FaTimes />
+                </button>
             </div>
         </nav>
+        <div className="outside-nav">
+            <button className="nav-btn" onClick={showNavbar}>
+                    <FaBars />
+            </button>
+        </div>
         </>
     )
 }
