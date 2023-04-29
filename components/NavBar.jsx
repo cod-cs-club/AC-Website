@@ -16,7 +16,7 @@ export default function NavBar({navLinks}){
                 navLinks && navLinks.map(navItem =>{
                     return (
                         <button className="navButtons">
-                            <a className="navPageItem" href={navItem.href} key={navItem.name}>{navItem.name}</a>
+                            <Link className="navPageItem" href={navItem.href} key={navItem.name}>{navItem.name}</Link>
                         </button>
                     )
                 })
