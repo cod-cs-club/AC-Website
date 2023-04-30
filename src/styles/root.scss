@@ -77,9 +77,11 @@
     .paragraphContainer{
         width: 50%;
         margin: 0 auto;
+        color: #F0AD4E;
     
         .paragraph{
             font-size: 135%;
+            color: #2E4C6D;
         }
     }   
 }
@@ -184,7 +186,7 @@ nav{
         position: absolute;
         width: 100%;
         background-color: #009f46;
-        margin: 30px 0;
+        margin: 0;
         color: white;
 
         #footerHeading{
