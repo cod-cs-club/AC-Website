@@ -11,11 +11,13 @@ export default function NavBar({navLinks}){
 
     return (
         <>  
-        <div className="FlexContainer">
+        <div className="FlexContainer1">
             <Link href="/">
                 <Image id="logo" src="/Company Images/CompanyLogo.png" width="180" height="90" alt="AP Pro Inc. Logo" />
             </Link>
-            <h1 style={{color:"red"}} id="navBarHeader">AP Pro Inc</h1>
+            <Link href="/">
+            <h1 style={{color:"#009f46"}} id="navBarHeader">AP Pro Inc</h1>
+            </Link>
         </div>
         <nav ref={navRef}>
             <div className="FlexContainer">

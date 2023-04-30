@@ -18,11 +18,34 @@
 }
 
 //Containers
+.FlexContainer1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color:#fff;
+    color: #009f46;
+}
+
+@media only screen and (max-width: 720px){
+    .FlexContainer1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-color:#009f46;
+
+        #navBarHeader {color:white !important;}
+    }
+}
+
 .FlexContainer{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+
+    
 
     //x nav toggle button
     .nav-btn {
@@ -118,7 +141,7 @@ nav{
             position: absolute;
             top: 4rem;
         }
-        .navPageItem{padding: 40px;}
+        .navPageItem{padding: 45px;}
     }
 
     .navButtons{
@@ -130,6 +153,7 @@ nav{
         background: none;
         background-color: #009f46;
         transition: all .1s ease-in-out .1s;
+
 
         .navPageItem{
             padding-bottom: 10px;
@@ -159,7 +183,7 @@ nav{
     footer{
         position: absolute;
         width: 100%;
-        background-color: rgb(232, 70, 70);
+        background-color: #009f46;
         margin: 30px 0;
         color: white;
 
@@ -195,7 +219,7 @@ nav{
             justify-content: center;
             align-items: center;
             text-align: center;
-            background-color: rgb(193, 55, 55);
+            background-color: #007e36;
         
             #gitHubLink:hover{
                 opacity: 50%;

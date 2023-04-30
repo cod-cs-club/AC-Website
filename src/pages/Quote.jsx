@@ -40,7 +40,7 @@ export default function QuotePage() {
         <fieldset>
           <div>
             <label htmlFor="name">Name:</label>
-              <input type="text" id="name" name="name" value={values.name} placeholder="name" onChange={handleChange} required/>
+              <input type="text" id="name" name="name" value={values.name} placeholder="Enter your name" onChange={handleChange} required/>
           </div>
           <div>
           <label htmlFor="subject">Subject:</label>
