@@ -5,16 +5,21 @@
 
         //Image Carasoul
         #sliderDiv{
-            max-width: 100%;
             margin: 0 auto;
             justify-content: center;
             position: relative;
+
+            @media only screen and (max-width: 720px){     
+                #carouselImage{
+                    width: 400px;
+                }
+            }
 
             #sliderButtonDiv{
                 display: flex;
                 justify-content: center;
 
-                .sliderButtonleft {
+                .sliderButton {
                     font-size: 200%;
                     color: white;
                     border-radius: 50%;
@@ -22,33 +27,22 @@
                     padding: 5px; 
                     position: absolute;
                     top: 45%;
-                    left: 0;
                     background-color: transparent;
                     border: none;
                     cursor: pointer;
                 }
 
-                .sliderButtonleft:hover {
+                .sliderButton:hover {
                     background-color: #bfc1c1;
                     transition: 0.5s ease;
                 }
                 
-                .sliderButtonright {
-                    font-size: 200%;
-                    color: white;
-                    border-radius: 50%;
-                    width:50px;
-                    padding: 5px; 
-                    position: absolute;
-                    top: 45%;
-                    right: 0;
-                    background-color: transparent;
-                    border: none;
-                    cursor: pointer;
+                .leftSlider{
+                    left: 0;
                 }
-                .sliderButtonright:hover {
-                    background-color: #bfc1c1;
-                    transition: 0.5s ease;
+
+                .rightSlider{
+                    right: 0;
                 }
             }
 

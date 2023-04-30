@@ -35,7 +35,7 @@
     }
 
     //x nav toggle button
-    @media only screen and (max-width: 800px){
+    @media only screen and (max-width: 720px){
         .nav-btn {
             visibility: visible;
             opacity: 1;
@@ -72,9 +72,8 @@
         opacity: 0;
     }
 }
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 720px){
     .outside-nav {
-    
         .nav-btn {
             visibility: visible;
             opacity: 1;
@@ -87,7 +86,7 @@
 }
 
 //Navbar
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 720px){
     .responsive_nav {
         transform: none;
     }
@@ -97,7 +96,7 @@ nav{
     background-color: rgb(232, 70, 70);
     padding: 1rem;
 
-    @media only screen and (max-width: 800px){
+    @media only screen and (max-width: 720px){
         position: fixed;
         top: 0;
         left: 0;
@@ -119,8 +118,6 @@ nav{
         }
         .navPageItem{padding: 40px;}
     }
-
-    
 
     .navButtons{
         position: relative;
@@ -183,6 +180,12 @@ nav{
             }
         }
 
+        @media only screen and (max-width: 720px){
+            #footerLinksContainer{
+                font-size: 65%;
+            }
+        }
+
         #clubFooter{
             position: absolute;
             display: flex;
@@ -194,6 +197,12 @@ nav{
         
             #gitHubLink:hover{
                 opacity: 50%;
+            }
+
+            @media only screen and (max-width: 720px){
+                h6{
+                    font-size: 50%;
+                }
             }
         }
     }
