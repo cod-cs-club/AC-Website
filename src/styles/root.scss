@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
 //Global attributes
 * {
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 
     body {
         position: relative;
@@ -93,7 +95,7 @@
 }
 
 nav{
-    background-color: rgb(232, 70, 70);
+    background-color: #009f46;
     padding: 1rem;
 
     @media only screen and (max-width: 720px){
@@ -105,7 +107,7 @@ nav{
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: rgb(232, 70, 70);
+        background-color: #009f46;
         transition: 0.569s;
         transform: translateY(-100%); 
         z-index: 1;
@@ -126,7 +128,7 @@ nav{
         font-size: 150%;
         border: none;
         background: none;
-        background-color: rgb(232, 70, 70);
+        background-color: #009f46;
         transition: all .1s ease-in-out .1s;
 
         .navPageItem{
