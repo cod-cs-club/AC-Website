@@ -4,7 +4,7 @@ import CarriersGrid from 'components/CarriersGrid.jsx'
 export default function ServicesPage(){
     return (
         <>
-        <div class="services-description">
+        <div className="services-description">
             <h1>New Construction, Replacing Equipment & Service</h1>
             <p>
                 Lorem ipsum dolor sit amet. Ut voluptatem optio 33 voluptatem animi ut soluta error qui quasi commodi! 
@@ -14,7 +14,7 @@ export default function ServicesPage(){
             </p>
         </div>
         <ServicesGrid />
-        <div class="logo-heading">
+        <div className="logo-heading">
             <h1>Brands We Service</h1>
             <CarriersGrid />
         </div>

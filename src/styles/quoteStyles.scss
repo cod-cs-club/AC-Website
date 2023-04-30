@@ -1,16 +1,17 @@
 //Form
 form {
-    outline: solid 1px slategray;
-    background-color: wheat;
+    background-color: #F0AD4E;
     width: 30%;
-    margin: 0 auto;
-    padding: 24px;
+    margin: 2em auto 3em auto;
+    padding: 2em;
+    border-radius: 15px;
 
     label {
         display: block;
         margin-bottom: 8px;
         font-size: 1rem;
         font-weight: 525;
+        color: #2E4C6D;
     }
     
     input {
@@ -19,8 +20,8 @@ form {
         min-height: 45px;
         margin-bottom: 14px;
         padding: 8px 10px;
-        border: solid 1px grey;
-        border-radius: 3px;
+        border: none;
+        border-radius: 8px;
         transition: all 0.2s ease-in-out;
     }
 
@@ -35,17 +36,18 @@ form {
             margin-bottom: 14px;
             min-height: 100px;
             max-height: 225px;
-            transition: all 0.2s ease-in-out;
-            border: solid 1px grey;
+            transition: all 0.2s ease-out;
+            border: none;
+            border-radius: 5px;
+            padding: 8px;
         } 
 
         textarea:hover, textarea:focus, input:hover, input:focus {
-            outline: 0;
-            border-color: hotpink;
+            outline: none;
         }
         
         textarea:active, input:active {
-            color: hotpink;
+            color: #009f46;
             transition: none;
         }
 
@@ -64,3 +66,10 @@ form {
         }
     }
 }
+
+//responsive form
+@media screen and (max-width: 600px) {
+    form {
+      width: 90%;
+    }
+  }

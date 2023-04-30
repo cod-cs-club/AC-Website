@@ -60,24 +60,23 @@ export default function ImageCarousel({slides}){
     clearTimeout(timer);
     timer = setTimeout(() => autoslide(1), 3000);
 
-
     return(
         <>
-        <div id="sliderContainer">
+        <div>
             <div>
-                <Image src={slides[currentSlideIndex].src} width="500" height="370" />
+                <Image id="carouselImage" src={slides[currentSlideIndex].src} width="550" height="370"/>
             </div>
             <div id="sliderButtonDiv">
-                <button className="sliderButtonleft" onClick={() => prevImg()}>&#x3c;</button>
-                <button className="sliderButtonright" onClick={() => nextImg()}>&#x3e;</button>
-            <div className="dotDiv">   
-                <span className="dots" onClick={() => dotClick(0)}></span>
-                <span className="dots" onClick={() => dotClick(1)}></span>
-                <span className="dots" onClick={() => dotClick(2)}></span>
-                <span className="dots" onClick={() => dotClick(3)}></span>
-                <span className="dots" onClick={() => dotClick(4)}></span>
-                <span className="dots" onClick={() => dotClick(5)}></span>
-            </div>    
+                <button className="sliderButton leftSlider" onClick={() => prevImg()}>&#x3c;</button>
+                <button className="sliderButton rightSlider" onClick={() => nextImg()}>&#x3e;</button>
+                <div className="dotDiv">   
+                    <span className="dots" onClick={() => dotClick(0)}></span>
+                    <span className="dots" onClick={() => dotClick(1)}></span>
+                    <span className="dots" onClick={() => dotClick(2)}></span>
+                    <span className="dots" onClick={() => dotClick(3)}></span>
+                    <span className="dots" onClick={() => dotClick(4)}></span>
+                    <span className="dots" onClick={() => dotClick(5)}></span>
+                </div>    
             </div> 
         </div>
         </>
