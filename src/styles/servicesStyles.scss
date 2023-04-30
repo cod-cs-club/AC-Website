@@ -1,19 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
 //Page text
 .services-description {
-    padding-left: 1%;
-    padding-right: 1%;
+    padding: 20px 20px;
     width: 100%;
     text-align: center;
-    background-color: #f2f2f2;
+    background-color: #009f46;
+    color: white;
+    margin-bottom: 50px;
 
     h1{
         font-size: 2rem;
         margin: 0;
-        padding: 20px 0 0 0;
+        font-family: 'Source Sans Pro', sans-serif;
 
         p{
             font-size: 1.30rem;
-            padding: 10px 0 30px 0;
+            font-family: 'Source Sans Pro', sans-serif;
         }
     } 
 }
@@ -23,8 +26,8 @@
     display: flex;
     flex-wrap: wrap;
     gap: 3.2rem;
-    margin: 0 85px;
     justify-content: center;
+    flex-basis: calc(33.33% - 20px);
 
 
     //Service Image 1
@@ -34,24 +37,31 @@
     }
 
     #serviceImage-1 {
-        max-width: 400px;
+        max-width: 350px;
         max-height: 600px;
         display: flex;
         flex-direction: column;
         flex-basis: calc(33.33% - 20px);
         text-align: center;
-        border: 5px solid red;
         box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.2);
         transition-duration: 300ms;
         transition-timing-function: ease-out;
 
+        h4 {
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+
+        span {
+            padding: 5px 20px 20px 20px;
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+
         #image1 {
-            max-width: 100%;
+            min-width: 100%;
 
             img{
-                max-width: 390px;
-                max-height: 350px;
-                border-bottom: 5px solid red;
+                max-width: 350px;
+                max-height: 300px;
             }
         }
     }
@@ -61,24 +71,31 @@
     }
 
     #serviceImage-2 {
-        max-width: 400px;
+        max-width: 350px;
         max-height: 600px;
         display: flex;
         flex-direction: column;
         flex-basis: calc(33.33% - 20px);
         text-align: center;
-        border: 5px solid red;
         box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.2);
         transition-duration: 300ms;
         transition-timing-function: ease-out;
     
+        h4 {
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+
+        span {
+            padding: 5px 20px 20px 20px;
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+
         #image2 {
             max-width: 100%;
             
             img{
-                max-width: 390px;
-                max-height: 350px;
-                border-bottom: 5px solid red;
+                max-width: 350px;
+                max-height: 300px;
             }
         }
     }
@@ -88,24 +105,31 @@
     }
 
     #serviceImage-3 {
-        max-width: 400px;
+        max-width: 350px;
         max-height: 600px;
         display: flex;
         flex-direction: column;
         flex-basis: calc(33.33% - 20px);
         text-align: center;
-        border: 5px solid red;
         box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.2);
         transition-duration: 300ms;
         transition-timing-function: ease-out;
+
+        h4 {
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+
+        span {
+            padding: 5px 20px 20px 20px;
+            font-family: 'Source Sans Pro', sans-serif;
+        }
 
         #image3 {
             max-width: 100%;
             
             img{
-                max-width: 390px;
-                max-height: 350px;
-                border-bottom: 5px solid red;
+                max-width: 350px;
+                max-height: 300px;
             }
         }
     }
@@ -115,24 +139,31 @@
     }
 
     #serviceImage-4 {
-        max-width: 400px;
+        max-width: 350px;
         max-height: 600px;
         display: flex;
         flex-direction: column;
         flex-basis: calc(33.33% - 20px);
         text-align: center;
-        border: 5px solid red;
         box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.2);
         transition-duration: 300ms;
         transition-timing-function: ease-out;
+
+        h4 {
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+
+        span {
+            padding: 5px 20px 20px 20px;
+            font-family: 'Source Sans Pro', sans-serif;
+        }
 
         #image4 {
             max-width: 100%;
             
             img{
-                max-width: 390px;
-                max-height: 350px;
-                border-bottom: 5px solid red;
+                max-width: 350px;
+                max-height: 300px;
             }
         }
     }
@@ -142,24 +173,31 @@
     }
 
     #serviceImage-5 {
-        max-width: 400px;
+        max-width: 350px;
         max-height: 600px;
         display: flex;
         flex-direction: column;
         flex-basis: calc(33.33% - 20px);
         text-align: center;
-        border: 5px solid red;
         box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.2);
         transition-duration: 300ms;
         transition-timing-function: ease-out;
+
+        h4 {
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+
+        span {
+            padding: 5px 20px 20px 20px;
+            font-family: 'Source Sans Pro', sans-serif;
+        }
 
         #image5 {
             max-width: 100%;
             
             img{
-                max-width: 390px;
-                max-height: 350px;
-                border-bottom: 5px solid red;
+                max-width: 350px;
+                max-height: 300px;
             }
         }
     }
@@ -169,24 +207,31 @@
     }
 
     #serviceImage-6 {
-        max-width: 400px;
+        max-width: 350px;
         max-height: 600px;
         display: flex;
         flex-direction: column;
         flex-basis: calc(33.33% - 20px);
         text-align: center;
-        border: 5px solid red;
         box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.2);
         transition-duration: 300ms;
         transition-timing-function: ease-out;
+
+        h4 {
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+
+        span {
+            padding: 5px 20px 20px 20px;
+            font-family: 'Source Sans Pro', sans-serif;
+        }  
 
         #image6 {
             max-width: 100%;
             
             img{
-                max-width: 390px;
-                max-height: 350px;
-                border-bottom: 5px solid red;
+                max-width: 350px;
+                max-height: 300px;
             }
         }
     }
@@ -196,24 +241,31 @@
     }
 
     #serviceImage-7 {
-        max-width: 400px;
+        max-width: 350px;
         max-height: 600px;
         display: flex;
         flex-direction: column;
         flex-basis: calc(33.33% - 20px);
         text-align: center;
-        border: 5px solid red;
         box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.2);
         transition-duration: 300ms;
         transition-timing-function: ease-out;
+
+        h4 {
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+
+        span {
+            padding: 5px 20px 20px 20px;
+            font-family: 'Source Sans Pro', sans-serif;
+        }
 
         #image7 {
             max-width: 100%;
             
             img{
-                max-width: 390px;
-                max-height: 350px;
-                border-bottom: 5px solid red;
+                max-width: 350px;
+                max-height: 300px;
             }
         }
     }
@@ -224,24 +276,31 @@
     }
 
     #serviceImage-8 {
-        max-width: 400px;
+        max-width: 350px;
         max-height: 600px;
         display: flex;
         flex-direction: column;
         flex-basis: calc(33.33% - 20px);
         text-align: center;
-        border: 5px solid red;
         box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.2);
         transition-duration: 300ms;
         transition-timing-function: ease-out;
+
+        h4 {
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+
+        span {
+            padding: 5px 20px 20px 20px;
+            font-family: 'Source Sans Pro', sans-serif;
+        }
 
         #image8 {
             max-width: 100%;
             
             img{
-                max-width: 390px;
-                max-height: 350px;
-                border-bottom: 5px solid red;
+                max-width: 350px;
+                max-height: 300px;
             }
         }
     }
@@ -251,24 +310,31 @@
     }
 
     #serviceImage-9 {
-        max-width: 400px;
+        max-width: 350px;
         max-height: 600px;
         display: flex;
         flex-direction: column;
         flex-basis: calc(33.33% - 20px);
         text-align: center;
-        border: 5px solid red;
         box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.2);
         transition-duration: 300ms;
         transition-timing-function: ease-out;
 
+        h4 {
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+
+        span {
+            padding: 5px 20px 20px 20px;
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+        
         #image9 {
             max-width: 100%;
             
             img{
-                max-width: 390px;
-                max-height: 350px;
-                border-bottom: 5px solid red;
+                max-width: 350px;
+                max-height: 300px;
             }
         }
     }
