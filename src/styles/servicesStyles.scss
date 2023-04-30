@@ -23,9 +23,10 @@
 
 //Services pictures
 #service-images-container {
+    margin: 0 50px;
     display: flex;
     flex-wrap: wrap;
-    gap: 3.2rem;
+    gap: 3rem;
     justify-content: center;
     flex-basis: calc(33.33% - 20px);
 
@@ -46,6 +47,7 @@
         box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.2);
         transition-duration: 300ms;
         transition-timing-function: ease-out;
+        margin: 0 10px;
 
         h4 {
             font-family: 'Source Sans Pro', sans-serif;
@@ -80,6 +82,7 @@
         box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.2);
         transition-duration: 300ms;
         transition-timing-function: ease-out;
+        margin: 0 10px;
     
         h4 {
             font-family: 'Source Sans Pro', sans-serif;
@@ -114,6 +117,7 @@
         box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.2);
         transition-duration: 300ms;
         transition-timing-function: ease-out;
+        margin: 0 10px;
 
         h4 {
             font-family: 'Source Sans Pro', sans-serif;
@@ -148,6 +152,7 @@
         box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.2);
         transition-duration: 300ms;
         transition-timing-function: ease-out;
+        margin: 0 10px;
 
         h4 {
             font-family: 'Source Sans Pro', sans-serif;
@@ -182,6 +187,7 @@
         box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.2);
         transition-duration: 300ms;
         transition-timing-function: ease-out;
+        margin: 0 10px;
 
         h4 {
             font-family: 'Source Sans Pro', sans-serif;
@@ -216,6 +222,7 @@
         box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.2);
         transition-duration: 300ms;
         transition-timing-function: ease-out;
+        margin: 0 10px;
 
         h4 {
             font-family: 'Source Sans Pro', sans-serif;
@@ -250,6 +257,7 @@
         box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.2);
         transition-duration: 300ms;
         transition-timing-function: ease-out;
+        margin: 0 10px;
 
         h4 {
             font-family: 'Source Sans Pro', sans-serif;
@@ -285,6 +293,7 @@
         box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.2);
         transition-duration: 300ms;
         transition-timing-function: ease-out;
+        margin: 0 10px;
 
         h4 {
             font-family: 'Source Sans Pro', sans-serif;
@@ -319,6 +328,7 @@
         box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.2);
         transition-duration: 300ms;
         transition-timing-function: ease-out;
+        margin: 0 10px;
 
         h4 {
             font-family: 'Source Sans Pro', sans-serif;
