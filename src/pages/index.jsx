@@ -1,5 +1,6 @@
 import ImageCarousel from 'components/ImageCarousel.jsx'
 import ContactBox from 'components/ContactBox.jsx'
+import Image from 'next/image'
 
 const sliderImages = [
   {name: "img1", src:"/Company Images/AC-Unit.jpg"},
@@ -17,7 +18,7 @@ export default function Home() {
       <div id="wrapper">
         <div className="FlexContainer">
           <div id="sliderDiv">
-            <ImageCarousel slides={sliderImages}/>
+            <ImageCarousel slides={sliderImages}/>  
           </div>
           <div className="paragraphContainer">
               <h1>We are pros!</h1>
