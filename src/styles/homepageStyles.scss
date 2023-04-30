@@ -70,29 +70,42 @@
         }
         
         //Contact Box
-        #ContactBoxContainer{     
+        #ContactBoxContainer{ 
+            color: #F0AD4E;
             text-align: center;
             border-style: groove;
-            border-color: red;
+            border-color: #009f46;
             background-color: rgb(249, 231, 231);
             width:100%;
+            background-image: url("/Company Images/BasementUnit1.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+
 
             #internalContactBox{
                 a{
                     display: inline;
                 }
+
+                h1{
+                    color: #009f46 !important;
+                }
+
                 #quoteButton{
                     margin-left: auto;
-                    padding:20px;
-                    border-radius: 15%;
+                    padding: 15px 24px;
+                    border-radius: 5px;
                     border: none;
-                    background-color: rgb(81, 70, 232);
+                    background-color: #009f46;
                     font-size: 120%;
                     text-align: center;
                     color: white;
+                    text-transform: uppercase;
+                    transition: all 0.3s;
                 }
                 #quoteButton:hover{
-                    background-color: rgb(129, 121, 242);
+                    color: #009f46;
+                    background-color: #fff;
                     cursor: pointer;
                 }
             }
