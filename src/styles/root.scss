@@ -91,6 +91,7 @@
 //Nav button outside of the nav bar (three lines)
 .outside-nav {
     .nav-btn {
+        display: none;
         padding: 5px;
         cursor: pointer;
         background: transparent;
@@ -104,6 +105,7 @@
 @media only screen and (max-width: 720px){
     .outside-nav {
         .nav-btn {
+            display: inline-block;
             visibility: visible;
             opacity: 1;
             font-size: 1.8rem;
