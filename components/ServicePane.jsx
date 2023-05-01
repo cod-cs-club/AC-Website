@@ -1,9 +1,9 @@
 import Image from 'next/image';
 
-const ServicePane = ({paneImage, Header, bodyText}) => (
+const ServicePane = ({paneImage, Header, bodyText, Imagealt}) => (
     <div id="serviceImagePane">
         <div id="serviceImage">
-            <Image src={paneImage} width="450" height="400"/>
+            <Image src={paneImage} alt={Imagealt} width="450" height="400"/>
         </div>
     <h4>{Header}</h4>
     <span>{bodyText}</span>
