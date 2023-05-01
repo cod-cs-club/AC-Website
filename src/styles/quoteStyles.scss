@@ -4,12 +4,12 @@
 #quote-banner {
     max-width: 100%;
     min-height: 150px;
-    background-color: #009f46;
+    background-color: mainColor.$primary;
     text-align: center;
     padding: 45px;
 
     h1 {
-        color: #F0AD4E;
+        color: mainColor.$secondary;
         font-size: 2.5rem;
         margin: 0;
     }
@@ -89,7 +89,7 @@
     }
     
     //responsive form
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 720px) {
         form {
           width: 90%;
         }

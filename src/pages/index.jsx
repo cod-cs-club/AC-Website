@@ -23,12 +23,10 @@ export default function Home() {
           <div className="paragraphContainer">
               <h1>We are pros!</h1>
               <p className="paragraph">
-                Lorem ipsum dolor sit amet. Ut voluptatem optio 33 voluptatem animi ut soluta error qui quasi commodi! 
-                Cum consequatur laudantium aut laborum illum ad omnis nobis eum fuga magni est commodi officia! 
-                Qui asperiores explicabo non galisum reprehenderit aut dolor dicta est ipsa fuga aut maiores nihil. 
-                Ab eaque beatae et explicabo corrupti qui animi laborum. 
-                Lorem ipsum dolor sit amet. Ut voluptatem optio 33 voluptatem animi ut soluta error qui quasi commodi! 
-                Cum consequatur laudantium aut laborum illum ad omnis nobis eum fuga magni est commodi officia! 
+              AP Pro Inc is a proud Chicago-based HVAC buisness with over 20 years of experience.
+              Whether it be air conditioning untis, boilers, furnaces, or any other type of equipment 
+              from a variety of carriers - AP Pro Inc has got you covered. With over 1000 jobs done -
+              AP Pro Inc. is not afraid to tackle the ins and outs of any HVAC problem. 
               </p>
           </div>
         </div>

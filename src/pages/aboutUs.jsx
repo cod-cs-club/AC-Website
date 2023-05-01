@@ -1,9 +1,6 @@
 export default function AboutUsPage(){
     return (
         <>
-        <div id="aboutUs-banner">
-            <h1>About AP Pro Inc</h1>
-        </div>
          <div className="FlexContainer">
             <div id="aboutUsTextDiv">
                 <div>

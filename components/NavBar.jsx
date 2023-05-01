@@ -16,7 +16,7 @@ export default function NavBar({navLinks}){
                 <Image id="logo" src="/Company Images/CompanyLogo.png" width="150" height="90" alt="AP Pro Inc. Logo" />
             </Link>
             <Link href="/">
-            <h1 style={{color:"#009f46"}} id="navBarHeader">AP Pro Inc</h1>
+                <h1 style={{color:"#009f46"}} id="navBarHeader">AP Pro Inc</h1>
             </Link>
         </div>
         <nav ref={navRef}>

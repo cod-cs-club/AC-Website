@@ -47,8 +47,6 @@
     justify-content: center;
     align-items: center;
 
-    
-
     //x nav toggle button
     .nav-btn {
         padding: 5px;
@@ -78,14 +76,13 @@
 
     .paragraphContainer{
         width: 50%;
-        margin: 0 auto;
         color: mainColor.$secondary;
     
         h1 {
             font-size: 250%;
         }
         .paragraph{
-            font-size: 135%;
+            font-size: 150%;
             color: mainColor.$paragraph;
         }
     }   
