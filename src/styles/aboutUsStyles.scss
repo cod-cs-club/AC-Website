@@ -1,7 +1,23 @@
+#aboutUs-banner {
+    max-width: 100%;
+    min-height: 150px;
+    padding: 45px;
+    text-align: center;
+    background-color: #009f46;
+
+
+    h1 {
+        margin: 0;
+        font-size: 2.5rem;
+        color: #F0AD4E;
+    }
+}
+
 #aboutUsTextDiv{
     padding: 0 2rem;
 
     h1 {
+        margin: 50px 0 0 0;
         color: #F0AD4E;
         font-size: 250%;
     }

@@ -1,3 +1,17 @@
+#location-banner {
+   max-width: 100%;
+   min-height: 150px;
+   text-align: center;
+   background-color: #009f46;
+   padding: 45px;
+
+   h1 {
+      color: #F0AD4E;
+      font-size: 2.5rem;
+      margin: 0;
+   }
+}
+
 .mapContainer {
    display:flex;
    flex-direction: column;
@@ -17,7 +31,7 @@
       border-radius: 12px 12px 0px 0px ;
       text-align: center;
       width: auto;
-      margin: 5% 3% 0% 3%;
+      margin: 50px 3% 0% 3%;
    }
    
    .city-Ul {

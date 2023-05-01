@@ -36,6 +36,9 @@ export default function QuotePage() {
 
   return (
     <>
+      <div id="quote-banner">
+        <h1>Get a Quote</h1>
+      </div>
        <form>
         <fieldset>
           <div>
