@@ -19,28 +19,6 @@
 }
 
 //Containers
-.FlexContainer1{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    background-color:#fff;
-    color: mainColor.$primary;
-}
-
-@media only screen and (max-width: 720px){
-    .FlexContainer1{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        background-color: mainColor.$primary;
-        border-bottom: 30px solid white;
-
-        #navBarHeader {color:white !important;}
-    }
-}
-
 .FlexContainer{
     display: flex;
     flex-wrap: wrap;
@@ -76,6 +54,7 @@
 
     .paragraphContainer{
         width: 50%;
+        margin: 0 auto;
         color: mainColor.$secondary;
     
         h1 {
