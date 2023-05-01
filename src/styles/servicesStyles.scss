@@ -5,7 +5,6 @@
     text-align: center;
     background-color: #009f46;
     color: white;
-    margin-bottom: 50px;
 
     h1{
         font-size: 2.5rem;
@@ -21,11 +20,13 @@
 
 //Services pictures
 #service-images-container {
-    margin: 0 50px;
     display: flex;
     flex-wrap: wrap;
     gap: 3rem;
+    padding-top: 50px;
     justify-content: center;
+    background-color: #f2f2f2;
+    padding-bottom: 50px;
 
 
     //Service Image 1
@@ -46,7 +47,7 @@
         margin: 0 10px;
 
         h4 {
-
+            color: #009f46;
         }
 
         span {
@@ -80,7 +81,7 @@
         margin: 0 10px;
     
         h4 {
-
+            color: #009f46;
         }
 
         span {
@@ -114,7 +115,7 @@
         margin: 0 10px;
 
         h4 {
-
+            color: #009f46;
         }
 
         span {
@@ -148,7 +149,7 @@
         margin: 0 10px;
 
         h4 {
-
+            color: #009f46;
         }
 
         span {
@@ -182,7 +183,7 @@
         margin: 0 10px;
 
         h4 {
-
+            color: #009f46;
         }
 
         span {
@@ -216,7 +217,7 @@
         margin: 0 10px;
 
         h4 {
-
+            color: #009f46;
         }
 
         span {
@@ -250,7 +251,7 @@
         margin: 0 10px;
 
         h4 {
-
+            color: #009f46;
         }
 
         span {
@@ -285,7 +286,7 @@
         margin: 0 10px;
 
         h4 {
-
+            color: #009f46;
         }
 
         span {
@@ -319,7 +320,7 @@
         margin: 0 10px;
 
         h4 {
-
+            color: #009f46;
         }
 
         span {
@@ -350,14 +351,15 @@
 
 //Carrier Logos Heading
 .logo-heading {
+    padding-top: 10px;
     text-align: center;
-    margin-top: 25px;
-    background-color: #f2f2f2;
+    background-color: #eeecec;
 
     h1 {
         padding: 20px 0 0 0;
         margin-top: 0px;
-        margin-bottom: 0px;    
+        margin-bottom: 0px; 
+        color: #F0AD4E; 
     }
 }
 
@@ -365,9 +367,10 @@
 #logos-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 1.5rem;
     justify-content: center;
-    background-color: #f2f2f2;
+    background-color: #eeecec;
+
 
     img {
         object-fit: contain;
