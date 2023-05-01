@@ -1,15 +1,34 @@
-@use "src/styles/_variables.scss" as color;
+<<<<<<< HEAD
+@use "src/styles/_variables.scss" as mainColor;
+=======
+#aboutUs-banner {
+    max-width: 100%;
+    min-height: 150px;
+    padding: 45px;
+    text-align: center;
+    background-color: mainColor.$primary;
+
+
+    h1 {
+        margin: 0;
+        font-size: 2.5rem;
+        color: mainColor.$secondary;
+    }
+}
+>>>>>>> 9a315665b23046279dd1aac44a67d12033718274
 
 #aboutUsTextDiv{
     padding: 0 2rem;
+    background-color: #f2f2f2;
+    padding: 35px 32px;
 
     h1 {
-        color: color.$secondary;
+        color: mainColor.$secondary;
         font-size: 250%;
     }
 
     p {
         font-size: 125%;
-        color: color.$paragraph;
+        color: mainColor.$paragraph;
     }
 }

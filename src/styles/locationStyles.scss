@@ -1,9 +1,9 @@
-@use "src/styles/_variables.scss" as color;
+@use "src/styles/_variables.scss" as mainColor;
 
 .mapContainer {
    display:flex;
    flex-direction: column;
-   background-color: #ffffff;
+   background-color: #f2f2f2;
 
    .location-page-header {
       background-color:transparent;
@@ -19,7 +19,7 @@
       border-radius: 12px 12px 0px 0px ;
       text-align: center;
       width: auto;
-      margin: 5% 3% 0% 3%;
+      margin: 50px 3% 0% 3%;
    }
    
    .city-Ul {

@@ -1,4 +1,4 @@
-@use "src/styles/_variables.scss" as color;
+@use "src/styles/_variables.scss" as mainColor;
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
 //Global attributes
@@ -25,7 +25,7 @@
     justify-content: center;
     align-items: center;
     background-color:#fff;
-    color: color.$primary;
+    color: mainColor.$primary;
 }
 
 @media only screen and (max-width: 720px){
@@ -34,7 +34,7 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        background-color: color.$primary;
+        background-color: mainColor.$primary;
         border-bottom: 30px solid white;
 
         #navBarHeader {color:white !important;}
@@ -79,14 +79,14 @@
     .paragraphContainer{
         width: 50%;
         margin: 0 auto;
-        color: color.$secondary;
+        color: mainColor.$secondary;
     
         h1 {
             font-size: 250%;
         }
         .paragraph{
             font-size: 135%;
-            color: color.$paragraph;
+            color: mainColor.$paragraph;
         }
     }   
 }
@@ -125,7 +125,7 @@
 }
 
 nav{
-    background-color: color.$primary;
+    background-color: mainColor.$primary;
     padding: 1rem;
 
     @media only screen and (max-width: 720px){
@@ -137,7 +137,7 @@ nav{
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: color.$primary;
+        background-color: mainColor.$primary;
         transition: 0.569s;
         transform: translateY(-100%); 
         z-index: 1;
@@ -158,7 +158,7 @@ nav{
         font-size: 150%;
         border: none;
         background: none;
-        background-color: color.$primary;
+        background-color: mainColor.$primary;
         transition: all .1s ease-in-out .1s;
 
 
@@ -190,7 +190,7 @@ nav{
     footer{
         position: absolute;
         width: 100%;
-        background-color: color.$primary;
+        background-color: mainColor.$primary;
         margin: 0;
         color: white;
 
@@ -226,7 +226,7 @@ nav{
             justify-content: center;
             align-items: center;
             text-align: center;
-            background-color: color.$tertiary;
+            background-color: mainColor.$tertiary;
         
             #gitHubLink:hover{
                 opacity: 50%;
