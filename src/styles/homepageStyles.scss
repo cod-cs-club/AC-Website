@@ -1,3 +1,5 @@
+@use "src/styles/_variables.scss" as color;
+
 #home{
     #wrapper{
         margin: 0 auto;
@@ -72,10 +74,10 @@
         //Contact Box
         #ContactBoxContainer{ 
             margin-top: 50px;
-            color: #F0AD4E;
+            color: color.$secondary;
             text-align: center;
             border-style: groove;
-            border-color: #009f46;
+            border-color: color.$primary;
             background-color: rgb(249, 231, 231);
             width:100%;
             background-image: url("/Company Images/BasementUnit1.png");
@@ -87,14 +89,14 @@
             #internalContactBox{
                 a{display: inline;}
 
-                h1{color: #009f46 !important;}
+                h1{color: color.$primary !important;}
 
                 #quoteButton{
                     margin-left: auto;
                     padding: 15px 24px;
                     border-radius: 5px;
                     border: none;
-                    background-color: #009f46;
+                    background-color: color.$primary;
                     font-size: 120%;
                     text-align: center;
                     color: white;
@@ -102,7 +104,7 @@
                     transition: all 0.3s;
                 }
                 #quoteButton:hover{
-                    color: #009f46;
+                    color: color.$primary ;
                     background-color: #fff;
                     cursor: pointer;
                 }

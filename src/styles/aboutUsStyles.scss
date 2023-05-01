@@ -1,13 +1,15 @@
+@use "src/styles/_variables.scss" as color;
+
 #aboutUsTextDiv{
     padding: 0 2rem;
 
     h1 {
-        color: #F0AD4E;
+        color: color.$secondary;
         font-size: 250%;
     }
 
     p {
         font-size: 125%;
-        color: #2E4C6D;
+        color: color.$paragraph;
     }
 }

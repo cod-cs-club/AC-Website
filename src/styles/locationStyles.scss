@@ -1,3 +1,5 @@
+@use "src/styles/_variables.scss" as color;
+
 .mapContainer {
    display:flex;
    flex-direction: column;

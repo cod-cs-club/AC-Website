@@ -1,15 +1,17 @@
+@use "src/styles/_variables.scss" as color;
+
 //Page text
 .services-description {
     padding: 20px 20px;
     width: 100%;
     text-align: center;
-    background-color: #009f46;
+    background-color: color.$primary;
     color: white;
 
     h1{
         font-size: 2.5rem;
         margin: 0;
-        color: #F0AD4E;
+        color: color.$secondary;
     } 
 
     p{
@@ -18,7 +20,7 @@
     }
 }
 
-//Services pictures
+//Services Grid
 #service-images-container {
     display: flex;
     flex-wrap: wrap;
@@ -28,14 +30,11 @@
     background-color: #f2f2f2;
     padding-bottom: 50px;
 
-
-    //Service Image 1
-
-    #serviceImage-1:hover {
+    #serviceImagePane:hover {
         transform: scale(1.03);
     }
 
-    #serviceImage-1 {
+    #serviceImagePane {
         max-width: 350px;
         max-height: 600px;
         display: flex;
@@ -47,15 +46,14 @@
         margin: 0 10px;
 
         h4 {
-            color: #009f46;
+            color: color.$primary;
         }
 
         span {
             padding: 5px 20px 20px 20px;
-
         }
 
-        #image1 {
+        #serviceImage {
             min-width: 100%;
 
             img{
@@ -64,289 +62,6 @@
             }
         }
     }
-
-    #serviceImage-2:hover {
-        transform: scale(1.03);
-    }
-
-    #serviceImage-2 {
-        max-width: 350px;
-        max-height: 600px;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.2);
-        transition-duration: 300ms;
-        transition-timing-function: ease-out;
-        margin: 0 10px;
-    
-        h4 {
-            color: #009f46;
-        }
-
-        span {
-            padding: 5px 20px 20px 20px;
-
-        }
-
-        #image2 {
-            max-width: 100%;
-            
-            img{
-                max-width: 350px;
-                max-height: 300px;
-            }
-        }
-    }
-
-    #serviceImage-3:hover {
-        transform: scale(1.03);
-    }
-
-    #serviceImage-3 {
-        max-width: 350px;
-        max-height: 600px;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.2);
-        transition-duration: 300ms;
-        transition-timing-function: ease-out;
-        margin: 0 10px;
-
-        h4 {
-            color: #009f46;
-        }
-
-        span {
-            padding: 5px 20px 20px 20px;
-
-        }
-
-        #image3 {
-            max-width: 100%;
-            
-            img{
-                max-width: 350px;
-                max-height: 300px;
-            }
-        }
-    }
-
-    #serviceImage-4:hover {
-        transform: scale(1.03);
-    }
-
-    #serviceImage-4 {
-        max-width: 350px;
-        max-height: 600px;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.2);
-        transition-duration: 300ms;
-        transition-timing-function: ease-out;
-        margin: 0 10px;
-
-        h4 {
-            color: #009f46;
-        }
-
-        span {
-            padding: 5px 20px 20px 20px;
-
-        }
-
-        #image4 {
-            max-width: 100%;
-            
-            img{
-                max-width: 350px;
-                max-height: 300px;
-            }
-        }
-    }
-
-    #serviceImage-5:hover {
-        transform: scale(1.03);
-    }
-
-    #serviceImage-5 {
-        max-width: 350px;
-        max-height: 600px;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.2);
-        transition-duration: 300ms;
-        transition-timing-function: ease-out;
-        margin: 0 10px;
-
-        h4 {
-            color: #009f46;
-        }
-
-        span {
-            padding: 5px 20px 20px 20px;
-
-        }
-
-        #image5 {
-            max-width: 100%;
-            
-            img{
-                max-width: 350px;
-                max-height: 300px;
-            }
-        }
-    }
-
-    #serviceImage-6:hover {
-        transform: scale(1.03);
-    }
-
-    #serviceImage-6 {
-        max-width: 350px;
-        max-height: 600px;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.2);
-        transition-duration: 300ms;
-        transition-timing-function: ease-out;
-        margin: 0 10px;
-
-        h4 {
-            color: #009f46;
-        }
-
-        span {
-            padding: 5px 20px 20px 20px;
-
-        }  
-
-        #image6 {
-            max-width: 100%;
-            
-            img{
-                max-width: 350px;
-                max-height: 300px;
-            }
-        }
-    }
-
-    #serviceImage-7:hover {
-        transform: scale(1.03);
-    }
-
-    #serviceImage-7 {
-        max-width: 350px;
-        max-height: 600px;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.2);
-        transition-duration: 300ms;
-        transition-timing-function: ease-out;
-        margin: 0 10px;
-
-        h4 {
-            color: #009f46;
-        }
-
-        span {
-            padding: 5px 20px 20px 20px;
-
-        }
-
-        #image7 {
-            max-width: 100%;
-            
-            img{
-                max-width: 350px;
-                max-height: 300px;
-            }
-        }
-    }
-
-
-    #serviceImage-8:hover {
-        transform: scale(1.03);
-    }
-
-    #serviceImage-8 {
-        max-width: 350px;
-        max-height: 600px;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.2);
-        transition-duration: 300ms;
-        transition-timing-function: ease-out;
-        margin: 0 10px;
-
-        h4 {
-            color: #009f46;
-        }
-
-        span {
-            padding: 5px 20px 20px 20px;
-
-        }
-
-        #image8 {
-            max-width: 100%;
-            
-            img{
-                max-width: 350px;
-                max-height: 300px;
-            }
-        }
-    }
-
-    #serviceImage-9:hover {
-        transform: scale(1.03);
-    }
-
-    #serviceImage-9 {
-        max-width: 350px;
-        max-height: 600px;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.2);
-        transition-duration: 300ms;
-        transition-timing-function: ease-out;
-        margin: 0 10px;
-
-        h4 {
-            color: #009f46;
-        }
-
-        span {
-            padding: 5px 20px 20px 20px;
-
-        }
-        
-        #image9 {
-            max-width: 100%;
-            
-            img{
-                max-width: 350px;
-                max-height: 300px;
-            }
-        }
-    }
-/*
-    img {
-        max-width: 100%;
-        width: 55vh;
-        height: 40vh;
-        border-radius: 0.25rem;
-        object-fit: fill;
-        padding: 10px;
-    }
-*/
 }
 
 //Carrier Logos Heading
@@ -359,7 +74,7 @@
         padding: 20px 0 0 0;
         margin-top: 0px;
         margin-bottom: 0px; 
-        color: #F0AD4E; 
+        color: color.$secondary;
     }
 }
 

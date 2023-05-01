@@ -13,10 +13,14 @@ export default function ServicesPage(){
                 Ab eaque beatae et explicabo corrupti qui animi laborum. 
             </p>
         </div>
-        <ServicesGrid />
+        <div id="service-images-container">
+            <ServicesGrid />
+        </div>
         <div className="logo-heading">
             <h1>Brands We Service</h1>
-            <CarriersGrid />
+            <div id="logos-container">
+                <CarriersGrid />
+            </div>
         </div>
         </>
     )

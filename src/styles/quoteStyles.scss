@@ -1,6 +1,8 @@
+@use "src/styles/_variables.scss" as color;
+
 //Form
 form {
-    background-color: #F0AD4E;
+    background-color: color.$secondary;
     width: 30%;
     margin: 2em auto 3em auto;
     padding: 2em;
@@ -11,7 +13,7 @@ form {
         margin-bottom: 8px;
         font-size: 1rem;
         font-weight: 525;
-        color: #2E4C6D;
+        color: color.$paragraph;
     }
     
     input {
@@ -47,7 +49,7 @@ form {
         }
         
         textarea:active, input:active {
-            color: #009f46;
+            color: color.$primary;
             transition: none;
         }
 
