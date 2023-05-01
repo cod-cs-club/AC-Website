@@ -13,77 +13,83 @@
     }
 }
 
-form {
-    background-color: #F0AD4E;
-    width: 30%;
-    margin: 50px auto 3em auto;
-    padding: 2em;
-    border-radius: 15px;
 
-    label {
-        display: block;
-        margin-bottom: 8px;
-        font-size: 1rem;
-        font-weight: 525;
-        color: #2E4C6D;
-    }
+#form-container {
+    background-color: #f2f2f2;
+    padding: 50px 0 50px 0;
+
+    form {
+        background-color: #F0AD4E;
+        width: 30%;
+        margin: 0 auto;
+        padding: 2em;
+        border-radius: 15px;
     
-    input {
-        width: 100%;
-        max-height: 55px;
-        min-height: 45px;
-        margin-bottom: 14px;
-        padding: 8px 10px;
-        border: none;
-        border-radius: 8px;
-        transition: all 0.2s ease-in-out;
-    }
-
-    fieldset {
-        margin: 0;
-        padding: 0;
-        border: 0;
-
-        textarea {
-            width: 100%;
-            resize: vertical;
-            margin-bottom: 14px;
-            min-height: 100px;
-            max-height: 225px;
-            transition: all 0.2s ease-out;
-            border: none;
-            border-radius: 5px;
-            padding: 8px;
-        } 
-
-        textarea:hover, textarea:focus, input:hover, input:focus {
-            outline: none;
-        }
-        
-        textarea:active, input:active {
-            color: #009f46;
-            transition: none;
-        }
-
-        .submit {
-            width: 100%;
+        label {
+            display: block;
+            margin-bottom: 8px;
             font-size: 1rem;
-            background-color: royalblue;
-            border-radius: 3px;
-            color: whitesmoke;
+            font-weight: 525;
+            color: #2E4C6D;
         }
         
-        .submit:hover {
-            cursor: pointer;
-            background-color: blue;
+        input {
+            width: 100%;
+            max-height: 55px;
+            min-height: 45px;
+            margin-bottom: 14px;
+            padding: 8px 10px;
+            border: none;
+            border-radius: 8px;
             transition: all 0.2s ease-in-out;
         }
+    
+        fieldset {
+            margin: 0;
+            padding: 0;
+            border: 0;
+    
+            textarea {
+                width: 100%;
+                resize: vertical;
+                margin-bottom: 14px;
+                min-height: 100px;
+                max-height: 225px;
+                transition: all 0.2s ease-out;
+                border: none;
+                border-radius: 5px;
+                padding: 8px;
+            } 
+    
+            textarea:hover, textarea:focus, input:hover, input:focus {
+                outline: none;
+            }
+            
+            textarea:active, input:active {
+                color: #009f46;
+                transition: none;
+            }
+    
+            .submit {
+                width: 100%;
+                font-size: 1rem;
+                background-color: royalblue;
+                border-radius: 3px;
+                color: whitesmoke;
+            }
+            
+            .submit:hover {
+                cursor: pointer;
+                background-color: blue;
+                transition: all 0.2s ease-in-out;
+            }
+        }
     }
+    
+    //responsive form
+    @media screen and (max-width: 600px) {
+        form {
+          width: 90%;
+        }
+      }
 }
-
-//responsive form
-@media screen and (max-width: 600px) {
-    form {
-      width: 90%;
-    }
-  }

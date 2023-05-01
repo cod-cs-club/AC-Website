@@ -39,6 +39,7 @@ export default function QuotePage() {
       <div id="quote-banner">
         <h1>Get a Quote</h1>
       </div>
+      <div id="form-container">
        <form>
         <fieldset>
           <div>
@@ -66,6 +67,7 @@ export default function QuotePage() {
           </div>
         </fieldset>
       </form>
+      </div>
     </>
   )
 }
