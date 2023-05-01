@@ -17,7 +17,7 @@ export default function Footer({footLinks}){
                     footLinks && footLinks.map(footItem =>{
                         return (
                             <ul id="footerLinkList" key={footItem.name+"UL"}>
-                                <li id="footLink"><a href={footItem.href} key={footItem.name}>{footItem.name}</a></li>
+                                <li id="footLink"><Link href={footItem.href} key={footItem.name}>{footItem.name}</Link></li>
                             </ul>
                         )
                     })

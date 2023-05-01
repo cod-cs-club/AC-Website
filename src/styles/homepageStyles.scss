@@ -1,3 +1,5 @@
+@use "_variables.scss" as mainColor;
+
 #home{
     #wrapper{
         margin: 0 auto;
@@ -71,10 +73,12 @@
         
         //Contact Box
         #ContactBoxContainer{ 
-            color: #F0AD4E;
+            margin-top: 50px;
+            color: mainColor.$secondary;
             text-align: center;
+            border-width: 3px;
             border-style: groove;
-            border-color: #009f46;
+            border-color: mainColor.$primary;
             background-color: rgb(249, 231, 231);
             width:100%;
             background-image: url("/Company Images/BasementUnit1.png");
@@ -86,14 +90,14 @@
             #internalContactBox{
                 a{display: inline;}
 
-                h1{color: #009f46 !important;}
+                h1{color: mainColor.$primary !important;}
 
                 #quoteButton{
                     margin-left: auto;
                     padding: 15px 24px;
                     border-radius: 5px;
                     border: none;
-                    background-color: #009f46;
+                    background-color: mainColor.$primary;
                     font-size: 120%;
                     text-align: center;
                     color: white;
@@ -101,7 +105,7 @@
                     transition: all 0.3s;
                 }
                 #quoteButton:hover{
-                    color: #009f46;
+                    color: mainColor.$primary ;
                     background-color: #fff;
                     cursor: pointer;
                 }
