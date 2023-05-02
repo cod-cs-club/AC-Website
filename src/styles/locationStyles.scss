@@ -16,7 +16,6 @@
    .cities-container {
       background-color: rgb(26, 174, 100);
       box-sizing: border-box;
-   
       text-align: center;
       width: auto;
       margin: 50px 3% 0% 3%;
@@ -37,8 +36,11 @@
          color: #ffffff;
          width: auto;
          padding: 1%;
-         margin: 0% 10%;
+         margin: 0%;
       }
+      .city-Li a:hover {
+         color: #000000;
+      } 
    }
 }
 
@@ -47,35 +49,4 @@
    width: auto;
    height: 400px;
    margin: 0% 3% 0% 3%;
-}
-
-//Not currently being used
-.address-container {
-   background-color: mainColor.$primary;
-   box-sizing: border-box;
-   width: auto;
-   margin: 0% 3% 3% 3%;
-
-   .address-Ul {
-      display:flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      list-style: none;
-      box-sizing: border-box;
-      justify-content: center;
-      width: auto;
-      padding-left: 0%;
-      margin: 1%;
-
-      .address-Li {
-         font-family: Impact;
-         font-size: 2rem;
-         width: auto;
-         padding: 2%;
-      }
-      
-      .address-Li a:hover {
-         color: #000000;
-      } 
-   }
 }
