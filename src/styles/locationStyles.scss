@@ -14,9 +14,9 @@
    }
 
    .cities-container {
-      background-color: #2984b2;
+      background-color: rgb(26, 174, 100);
       box-sizing: border-box;
-      border-radius: 12px 12px 0px 0px ;
+   
       text-align: center;
       width: auto;
       margin: 50px 3% 0% 3%;
@@ -49,10 +49,10 @@
    margin: 0% 3% 0% 3%;
 }
 
+//Not currently being used
 .address-container {
-   background-color: #2984b2;
+   background-color: mainColor.$primary;
    box-sizing: border-box;
-   border-radius: 0px 0px 12px 12px;
    width: auto;
    margin: 0% 3% 3% 3%;
 
