@@ -106,6 +106,10 @@ nav{
     background-color: mainColor.$primary;
     padding: 1rem;
 
+    #navBarHeader{
+        color: mainColor.$primary;
+    }
+
     @media only screen and (max-width: 720px){
         position: fixed;
         top: 0;
@@ -193,7 +197,7 @@ nav{
 
         @media only screen and (max-width: 720px){
             #footerLinksContainer{
-                font-size: 65%;
+                display: none;
             }
         }
 
