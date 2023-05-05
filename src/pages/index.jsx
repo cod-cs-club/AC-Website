@@ -3,12 +3,12 @@ import ContactBox from 'components/ContactBox.jsx'
 import Image from 'next/image'
 
 const sliderImages = [
-  {name: "img1", src:"/Company Images/AC-Unit.jpg"},
-  {name: "img2", src:"/Company Images/BasementUnit2.png"},
-  {name: "img3", src:"/Company Images/BasementUnit1.png"},
-  {name: "img4", src:"/Company Images/Closet-AC.jpg"},
-  {name: "img5", src:"/Company Images/Humidifier1.jpg"},
-  {name: "img6", src:"/Company Images/Humidifier2.jpg"}
+  {name: "img1", src:"/Company Images/Boiler.jpg"},
+  {name: "img2", src:"/Company Images/OutdoorUnits.jpg"},
+  {name: "img3", src:"/Company Images/CoolingUnit.jpg"},
+  {name: "img4", src:"/Company Images/OutdoorRheemUnits.jpg"},
+  {name: "img5", src:"/Company Images/OutdoorWhiteUnit.jpg"},
+  {name: "img6", src:"/Company Images/IndoorAC.jpg"}
 ]
 
 export default function Home() {

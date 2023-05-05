@@ -11,7 +11,7 @@ import Footer from '../../components/Footer'
 const pages = [
   {name: "Home", href:"/"},
   {name: "Services", href:"/Services"},
-  {name: "Locations", href:"/Location"},
+  {name: "Locations", href:"/location"},
   {name: "Get a Quote", href:"/Quote"},
   {name: "About Us", href:"/AboutUs"}
 ]

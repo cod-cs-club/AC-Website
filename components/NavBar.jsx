@@ -11,36 +11,46 @@ export default function NavBar({navLinks}){
 
     return (
         <>  
-        <div className="FlexContainer" style={{justifyContent: "space-between"}}>
-            <Link href="/">
-                <Image id="logo" src="/Company Images/CompanyLogo.png" width="150" height="90" alt="AP Pro Inc. Logo" />
-            </Link>
-            <h1 style={{color:"#009f46"}}>AP Pro Inc</h1>
-            <div>
-                <p>Call us: 630-440-5893</p>
-                <p>Email us: APProInc@gmail.com</p>
+        <div id="NavBar">
+            <div className="FlexContainer" id="upperNav">
+                <div id="logoContainer">
+                    <Link href="/">
+                        <Image id="logo" src="/Company Images/CompanyLogo.png" width="150" height="90" alt="AP Pro Inc. Logo" />
+                    </Link>
+                    <h1 id="upperNavText">AP Pro Inc</h1>
+                </div>
+                <div id="contactHeader">
+                    <div id="phoneNumberHeader">
+                        <i><h3 className="headerContactText">Call Us:</h3></i>
+                        <h3 className="headerContactSource">630-440-5893</h3>
+                    </div>
+                    <div id="emailHeader">
+                        <i><h3 className="headerContactText">Email Us:</h3></i>
+                        <h3 className="headerContactSource">APProInc@gmail.com</h3>
+                    </div>
+                </div>
             </div>
-        </div>
-        <nav ref={navRef}>
-            <div className="FlexContainer">
-            {
-                navLinks && navLinks.map(navItem =>{
-                    return (
-                        <button className="navButtons" key={navItem.name+"Button"} onClick={showNavbar}>
-                            <Link className="navPageItem" href={navItem.href} key={navItem.name}>{navItem.name}</Link>
-                        </button>
-                    )
-                })
-            }
-                <button className="nav-btn nav-close-btn" onClick={showNavbar}>
-                    <FaTimes />
+            <nav ref={navRef}>
+                <div className="FlexContainer">
+                {
+                    navLinks && navLinks.map(navItem =>{
+                        return (
+                            <button className="navButtons" key={navItem.name+"Button"} onClick={showNavbar}>
+                                <Link className="navPageItem" href={navItem.href} key={navItem.name}>{navItem.name}</Link>
+                            </button>
+                        )
+                    })
+                }
+                    <button className="nav-btn nav-close-btn" onClick={showNavbar}>
+                        <FaTimes />
+                    </button>
+                </div>
+            </nav>
+            <div className="outside-nav">
+                <button className="nav-btn" onClick={showNavbar}>
+                    <FaBars />
                 </button>
             </div>
-        </nav>
-        <div className="outside-nav">
-            <button className="nav-btn" onClick={showNavbar}>
-                <FaBars />
-            </button>
         </div>
         </>
     )
