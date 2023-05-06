@@ -22,22 +22,33 @@
    }
    
    .city-Ul {
-      display: flex;
-      flex-direction: column;
-      list-style: none;
-    
+      -webkit-column-count: 5;
+      -moz-column-count: 5; 
+      column-count: 5;
+      list-style-type: none;
+      justify-content: center;
+      padding: 0;
+      margin: 5%;
+
 
       .city-Li {
+         box-sizing: border-box;
          font-family: Impact;
-         font-size: 1.75em;
+         font-size: 3vh;
          color: #ffffff;
          width: auto;
-         padding: 1%;
+         padding: 2%;
          margin: 0%;
       }
       .city-Li a:hover {
          color: #000000;
       } 
+   }
+}
+
+@media screen and (max-width: 700px) {
+   .city-Ul {
+      display: inline;
    }
 }
 

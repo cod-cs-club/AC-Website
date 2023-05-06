@@ -36,7 +36,7 @@ export default function LocationPage(){
 
                 </ul>
             </div> 
-            <Map mapLink="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d206253.5336850436!2d-115.34015398902767!3d36.12488665214402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80beb782a4f57dd1%3A0x3accd5e6d5b379a3!2sLas%20Vegas%2C%20NV!5e0!3m2!1sen!2sus!4v1683046967747!5m2!1sen!2sus"/>
+            <Map mapLink="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143012.8811847293!2d-91.91235781904955!3d39.70934969361312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880b2d386f6e2619%3A0x7f15825064115956!2sIllinois!5e0!3m2!1sen!2sus!4v1683346212504!5m2!1sen!2sus"/>
             <div>
                 <p></p>
             </div>
