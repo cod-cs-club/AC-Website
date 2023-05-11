@@ -16,7 +16,7 @@ const ServicePane = ({paneImage, Header, bodyText, Imagealt}) => {
                 <Image src={paneImage} alt={Imagealt} width="450" height="400"/>
             </div>
         <h4>{Header}</h4>
-        <p>{showFullText ? bodyText : shortText}</p>
+        <span>{showFullText ? bodyText : shortText}</span>
         <button onClick={toggleText}>{showFullText ? 'Show Less' : 'Show More'}</button>
         </div>
     );
