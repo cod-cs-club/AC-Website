@@ -55,6 +55,24 @@
             word-wrap: break-word;
         }
 
+        button {
+            outline: none;
+            border: none;
+            margin: 20px 0;
+            align-self: center;
+            padding: 10px;
+            width: 35%;
+            background-color: mainColor.$primary;
+            color: #fff;
+            cursor: pointer;
+            transition: all 0.5s;
+        }
+
+        button:hover {
+            color: mainColor.$primary;
+            background-color: white;
+        }
+
         #serviceImage {
             min-width: 100%;
 

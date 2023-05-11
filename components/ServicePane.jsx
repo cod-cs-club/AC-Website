@@ -8,6 +8,7 @@ const ServicePane = ({paneImage, Header, bodyText, Imagealt}) => {
         setShowFullText(!showFullText);
     }
 
+    //Choose how many characters you want to display before text is cut off
     const shortText = bodyText.slice(0,100);
 
     return (
