@@ -36,8 +36,8 @@
     }
 
     #serviceImagePane {
-        max-width: 350px;
-        max-height: 600px;
+        width: 350px;
+        max-height: auto;
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -47,21 +47,31 @@
         margin: 0 10px;
 
         h4 {
-            color: mainColor.$primary;
+            font-size: 125%;
+            margin: 0 0 20px 0;
+            padding: 20px;
+            background-color: mainColor.$primary;
+            color: mainColor.$secondary;
         }
 
         span {
+            margin-bottom: 10px;
             padding: 5px 20px 20px 20px;
             word-wrap: break-word;
         }
 
         button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            font-size: 0.95rem;
             outline: none;
             border: none;
-            margin: 20px 0;
+            margin: 35px 0 10px 0;
             align-self: center;
-            padding: 10px;
-            width: 35%;
+            padding: 13px;
+            width: 40%;
             background-color: mainColor.$primary;
             color: #fff;
             cursor: pointer;
@@ -74,11 +84,11 @@
         }
 
         #serviceImage {
-            min-width: 100%;
 
             img{
-                max-width: 350px;
-                max-height: 300px;
+                border-radius: 0.2rem;
+                max-width: 315px;
+                max-height: 225px;
             }
         }
     }
