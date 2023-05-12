@@ -37,7 +37,7 @@ export default function QuotePage() {
   return (
     <>
       <div id="quote-banner">
-        <h1>Get a Quote</h1>
+        <h1>Request a Quote</h1>
       </div>
       <div id="form-container">
        <form>
